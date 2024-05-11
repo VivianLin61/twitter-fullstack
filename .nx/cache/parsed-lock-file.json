@@ -2529,6 +2529,15 @@
         "hash": "sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw=="
       }
     },
+    "npm:@react-oauth/google": {
+      "type": "npm",
+      "name": "npm:@react-oauth/google",
+      "data": {
+        "version": "0.12.1",
+        "packageName": "@react-oauth/google",
+        "hash": "sha512-qagsy22t+7UdkYAiT5ZhfM4StXi9PPNvw0zuwNmabrWyMKddczMtBIOARflbaIj+wHiQjnMAsZmzsUYuXeyoSg=="
+      }
+    },
     "npm:@rushstack/eslint-patch": {
       "type": "npm",
       "name": "npm:@rushstack/eslint-patch",
@@ -16512,6 +16521,16 @@
     {
       "source": "npm:@protobufjs/fetch",
       "target": "npm:@protobufjs/inquire",
+      "type": "static"
+    },
+    {
+      "source": "npm:@react-oauth/google",
+      "target": "npm:react",
+      "type": "static"
+    },
+    {
+      "source": "npm:@react-oauth/google",
+      "target": "npm:react-dom",
       "type": "static"
     },
     {

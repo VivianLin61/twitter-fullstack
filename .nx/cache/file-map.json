@@ -12,24 +12,20 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".gitignore",
-        "hash": "9153566771833488958"
-      },
-      {
         "file": "commitlint.config.js",
         "hash": "1085937044812020921"
       },
       {
-        "file": "pnpm-lock.yaml",
-        "hash": "4171712924733872752"
-      },
-      {
-        "file": "pnpm-workspace.yaml",
-        "hash": "13108396804214547201"
+        "file": "package.json",
+        "hash": "8697924228503338857"
       },
       {
         "file": "nx.json",
         "hash": "7905224585918534913"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "9153566771833488958"
       },
       {
         "file": ".husky/post-merge",
@@ -44,8 +40,12 @@
         "hash": "8477230314128361436"
       },
       {
-        "file": "package.json",
-        "hash": "8697924228503338857"
+        "file": "pnpm-lock.yaml",
+        "hash": "5758041218312652415"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "13108396804214547201"
       }
     ],
     "projectFileMap": {
@@ -140,8 +140,9 @@
         },
         {
           "file": "apps/web/package.json",
-          "hash": "15260833922024128120",
+          "hash": "3505727185001942841",
           "deps": [
+            "npm:@react-oauth/google",
             "npm:class-variance-authority",
             "npm:classnames",
             "npm:clsx",
@@ -251,7 +252,7 @@
         },
         {
           "file": "apps/web/src/app/layout.tsx",
-          "hash": "4651772249181270542"
+          "hash": "11647717289508391089"
         },
         {
           "file": "apps/web/src/app/not-found.tsx",
@@ -260,6 +261,10 @@
         {
           "file": "apps/web/src/app/page.tsx",
           "hash": "4424954732816734510"
+        },
+        {
+          "file": "apps/web/src/components/LoginButton.tsx",
+          "hash": "5670328732163692638"
         },
         {
           "file": "apps/web/src/components/button.tsx",
@@ -296,6 +301,10 @@
         {
           "file": "apps/web/src/lib/utils.ts",
           "hash": "10358681833224758619"
+        },
+        {
+          "file": "apps/web/src/providers/AuthProvider.tsx",
+          "hash": "14797170810009427927"
         },
         {
           "file": "apps/web/src/styles/globals.css",
@@ -357,8 +366,40 @@
           "hash": "14162470540319591963"
         },
         {
+          "file": "apps/api/src/app/clients/db/index.ts",
+          "hash": "9222501366684876445"
+        },
+        {
           "file": "apps/api/src/app/index.ts",
           "hash": "11992132878198473174"
+        },
+        {
+          "file": "apps/api/src/app/service/jwt.ts",
+          "hash": "6602871044604724079"
+        },
+        {
+          "file": "apps/api/src/app/service/user.ts",
+          "hash": "13892688111235079877"
+        },
+        {
+          "file": "apps/api/src/app/user/index.ts",
+          "hash": "1940811257471299335"
+        },
+        {
+          "file": "apps/api/src/app/user/mutations.ts",
+          "hash": "4274489864531017769"
+        },
+        {
+          "file": "apps/api/src/app/user/queries.ts",
+          "hash": "13399291597907107384"
+        },
+        {
+          "file": "apps/api/src/app/user/resolvers.ts",
+          "hash": "10144660582225595591"
+        },
+        {
+          "file": "apps/api/src/app/user/types.ts",
+          "hash": "5726942551744462247"
         },
         {
           "file": "apps/api/src/index.ts",
@@ -371,38 +412,6 @@
         {
           "file": "apps/api/tsconfig.json",
           "hash": "16475280922404664230"
-        },
-        {
-          "file": "apps/api/src/app/user/types.ts",
-          "hash": "5726942551744462247"
-        },
-        {
-          "file": "apps/api/src/app/user/resolvers.ts",
-          "hash": "10144660582225595591"
-        },
-        {
-          "file": "apps/api/src/app/user/queries.ts",
-          "hash": "13399291597907107384"
-        },
-        {
-          "file": "apps/api/src/app/user/index.ts",
-          "hash": "1940811257471299335"
-        },
-        {
-          "file": "apps/api/src/app/user/mutations.ts",
-          "hash": "4274489864531017769"
-        },
-        {
-          "file": "apps/api/src/app/service/user.ts",
-          "hash": "13892688111235079877"
-        },
-        {
-          "file": "apps/api/src/app/service/jwt.ts",
-          "hash": "6602871044604724079"
-        },
-        {
-          "file": "apps/api/src/app/clients/db/index.ts",
-          "hash": "9222501366684876445"
         }
       ]
     }

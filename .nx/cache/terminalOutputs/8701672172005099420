@@ -1,0 +1,57 @@
+
+> web@0.1.0 lint:fix /Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web
+> eslint src --fix && pnpm format
+
+[0m[0m
+[0m[4m/Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web/src/components/LoginButton.tsx[24m[0m
+[0m  [2m5:5[22m  [33mwarning[39m  Unexpected console statement  [2mno-console[22m[0m
+[0m[0m
+[0m[33m[1m✖ 1 problem (0 errors, 1 warning)[22m[39m[0m
+[0m[33m[1m[22m[39m[0m
+
+> web@0.1.0 format /Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web
+> prettier -w .
+
+.eslintrc.js[2K[1G[90m.eslintrc.js[39m 54ms
+.github/FUNDING.yml[2K[1G[90m.github/FUNDING.yml[39m 22ms
+.github/issue-branch.yml[2K[1G[90m.github/issue-branch.yml[39m 18ms
+.github/pull_request_template.md[2K[1G[90m.github/pull_request_template.md[39m 33ms
+.github/workflows/create-branch.yml[2K[1G[90m.github/workflows/create-branch.yml[39m 3ms
+.github/workflows/issue-autolink.yml[2K[1G[90m.github/workflows/issue-autolink.yml[39m 2ms
+.github/workflows/lint.yml[2K[1G[90m.github/workflows/lint.yml[39m 8ms
+.github/workflows/release-please.yml[2K[1G[90m.github/workflows/release-please.yml[39m 3ms
+.prettierrc.js[2K[1G[90m.prettierrc.js[39m 2ms
+.vscode/css.code-snippets[2K[1G[90m.vscode/css.code-snippets[39m 1ms
+.vscode/extensions.json[2K[1G[90m.vscode/extensions.json[39m 2ms
+.vscode/settings.json[2K[1G[90m.vscode/settings.json[39m 3ms
+.vscode/typescriptreact.code-snippets[2K[1G[90m.vscode/typescriptreact.code-snippets[39m 5ms
+jest.config.js[2K[1G[90mjest.config.js[39m 6ms
+jest.setup.js[2K[1G[90mjest.setup.js[39m 3ms
+next-env.d.ts[2K[1G[90mnext-env.d.ts[39m 108ms
+next-sitemap.config.js[2K[1G[90mnext-sitemap.config.js[39m 2ms
+next.config.js[2K[1G[90mnext.config.js[39m 7ms
+package.json[2K[1G[90mpackage.json[39m 4ms
+postcss.config.js[2K[1G[90mpostcss.config.js[39m 1ms
+public/favicon/site.webmanifest[2K[1G[90mpublic/favicon/site.webmanifest[39m 1ms
+renovate.json[2K[1G[90mrenovate.json[39m 3ms
+src/__mocks__/svg.tsx[2K[1G[90msrc/__mocks__/svg.tsx[39m 11ms
+src/__tests__/pages/HomePage.test.tsx[2K[1G[90msrc/__tests__/pages/HomePage.test.tsx[39m 4ms
+src/app/api/hello/route.ts[2K[1G[90msrc/app/api/hello/route.ts[39m 2ms
+src/app/layout.tsx[2K[1G[90msrc/app/layout.tsx[39m 7ms
+src/app/not-found.tsx[2K[1G[90msrc/app/not-found.tsx[39m 4ms
+src/app/page.tsx[2K[1G[90msrc/app/page.tsx[39m 11ms
+src/components/button.tsx[2K[1G[90msrc/components/button.tsx[39m 5ms
+src/components/LoginButton.tsx[2K[1G[90msrc/components/LoginButton.tsx[39m 3ms
+src/constant/config.ts[2K[1G[90msrc/constant/config.ts[39m 2ms
+src/constant/env.ts[2K[1G[90msrc/constant/env.ts[39m 2ms
+src/lib/__tests__/og.test.ts[2K[1G[90msrc/lib/__tests__/og.test.ts[39m 2ms
+src/lib/env.ts[2K[1G[90msrc/lib/env.ts[39m 6ms
+src/lib/helper.ts[2K[1G[90msrc/lib/helper.ts[39m 9ms
+src/lib/logger.ts[2K[1G[90msrc/lib/logger.ts[39m 3ms
+src/lib/og.ts[2K[1G[90msrc/lib/og.ts[39m 3ms
+src/lib/utils.ts[2K[1G[90msrc/lib/utils.ts[39m 2ms
+src/providers/AuthProvider.tsx[2K[1Gsrc/providers/AuthProvider.tsx 4ms
+src/styles/globals.css[2K[1G[90msrc/styles/globals.css[39m 22ms
+tailwind.config.ts[2K[1G[90mtailwind.config.ts[39m 3ms
+tsconfig.json[2K[1G[90mtsconfig.json[39m 2ms
+vercel.json[2K[1G[90mvercel.json[39m 2ms
