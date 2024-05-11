@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "concurrently \"pnpm codegen --watch\" \"next dev\"",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -14,13 +14,16 @@
     "test": "jest",
     "format": "prettier -w .",
     "format:check": "prettier -c .",
-    "postbuild": "next-sitemap --config next-sitemap.config.js"
+    "postbuild": "next-sitemap --config next-sitemap.config.js",
+    "codegen": "graphql-codegen --config codegen.ts"
   },
   "dependencies": {
     "@react-oauth/google": "^0.12.1",
     "class-variance-authority": "^0.7.0",
     "classnames": "^2.5.1",
     "clsx": "^2.0.0",
+    "graphql": "^16.8.0",
+    "graphql-request": "^7.0.1",
     "lucide-react": "^0.365.0",
     "next": "^14.0.4",
     "react": "^18.2.0",
@@ -28,11 +31,27 @@
     "react-icons": "^4.12.0",
     "react-intersection-observer": "^9.10.1",
     "tailwind-merge": "^2.1.0",
-    "zod": "^3.22.4"
+    "zod": "^3.22.4",
+    "@tanstack/react-query": "^4.33.0",
+    "@tanstack/react-query-devtools": "^4.33.0",
+    "@types/node": "20.5.0",
+    "@types/react": "18.2.20",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.15",
+    "concurrently": "^8.2.0",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.13",
+    "postcss": "8.4.27",
+    "react-hot-toast": "^2.4.1",
+    "sharp": "^0.32.5",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.1.6"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.3.0",
     "@commitlint/config-conventional": "^16.2.4",
+    "@graphql-codegen/cli": "5.0.2",
+    "@parcel/watcher": "^2.4.1",
     "@svgr/webpack": "^8.1.0",
     "@tailwindcss/forms": "^0.5.7",
     "@testing-library/jest-dom": "^5.17.0",
@@ -54,9 +73,13 @@
     "next-sitemap": "^2.5.28",
     "postcss": "^8.4.32",
     "prettier": "^2.8.8",
-    "prettier-plugin-tailwindcss": "^0.5.0",
     "tailwindcss": "^3.3.6",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "@graphql-codegen/introspection": "4.0.0",
+    "csstype": "^3.1.2",
+    "encoding": "^0.1.13",
+    "prettier-plugin-tailwindcss": "^0.5.3",
+    "@graphql-codegen/client-preset": "4.2.5"
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [

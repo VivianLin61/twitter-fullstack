@@ -12,36 +12,36 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "commitlint.config.js",
-        "hash": "1085937044812020921"
-      },
-      {
-        "file": "package.json",
-        "hash": "8697924228503338857"
-      },
-      {
-        "file": "nx.json",
-        "hash": "7905224585918534913"
-      },
-      {
         "file": ".gitignore",
         "hash": "9153566771833488958"
       },
       {
-        "file": ".husky/post-merge",
-        "hash": "16146438816338692493"
+        "file": "pnpm-lock.yaml",
+        "hash": "2563581142278484550"
       },
       {
         "file": ".husky/pre-commit",
         "hash": "8469265186761294654"
       },
       {
+        "file": "commitlint.config.js",
+        "hash": "1085937044812020921"
+      },
+      {
         "file": ".husky/commit-msg",
         "hash": "8477230314128361436"
       },
       {
-        "file": "pnpm-lock.yaml",
-        "hash": "5758041218312652415"
+        "file": "package.json",
+        "hash": "8697924228503338857"
+      },
+      {
+        "file": ".husky/post-merge",
+        "hash": "16146438816338692493"
+      },
+      {
+        "file": "nx.json",
+        "hash": "7905224585918534913"
       },
       {
         "file": "pnpm-workspace.yaml",
@@ -123,6 +123,14 @@
           "hash": "5169969397173229"
         },
         {
+          "file": "apps/web/codegen.ts",
+          "hash": "4312406117330475636"
+        },
+        {
+          "file": "apps/web/graphql/query/user.ts",
+          "hash": "8759509122817383500"
+        },
+        {
           "file": "apps/web/jest.config.js",
           "hash": "6867719462767940768"
         },
@@ -140,12 +148,14 @@
         },
         {
           "file": "apps/web/package.json",
-          "hash": "3505727185001942841",
+          "hash": "8914133177388477764",
           "deps": [
             "npm:@react-oauth/google",
             "npm:class-variance-authority",
             "npm:classnames",
             "npm:clsx",
+            "npm:graphql",
+            "npm:graphql-request",
             "npm:lucide-react",
             "npm:next",
             "npm:react",
@@ -154,19 +164,31 @@
             "npm:react-intersection-observer",
             "npm:tailwind-merge",
             "npm:zod",
+            "npm:@tanstack/react-query",
+            "npm:@tanstack/react-query-devtools",
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:autoprefixer",
+            "npm:concurrently",
+            "npm:eslint",
+            "npm:eslint-config-next",
+            "npm:postcss",
+            "npm:react-hot-toast",
+            "npm:sharp",
+            "npm:tailwindcss",
+            "npm:typescript",
             "npm:@commitlint/cli",
             "npm:@commitlint/config-conventional",
+            "npm:@graphql-codegen/cli",
+            "npm:@parcel/watcher",
             "npm:@svgr/webpack",
             "npm:@tailwindcss/forms",
             "npm:@testing-library/jest-dom",
             "npm:@testing-library/react",
-            "npm:@types/react",
             "npm:@types/testing-library__jest-dom",
             "npm:@typescript-eslint/eslint-plugin",
             "npm:@typescript-eslint/parser",
-            "npm:autoprefixer",
-            "npm:eslint",
-            "npm:eslint-config-next",
             "npm:eslint-config-prettier",
             "npm:eslint-plugin-simple-import-sort",
             "npm:eslint-plugin-unused-imports",
@@ -175,11 +197,12 @@
             "npm:lint-staged",
             "npm:next-router-mock",
             "npm:next-sitemap",
-            "npm:postcss",
             "npm:prettier",
+            "npm:@graphql-codegen/introspection",
+            "npm:csstype",
+            "npm:encoding",
             "npm:prettier-plugin-tailwindcss",
-            "npm:tailwindcss",
-            "npm:typescript"
+            "npm:@graphql-codegen/client-preset"
           ]
         },
         {
@@ -264,7 +287,7 @@
         },
         {
           "file": "apps/web/src/components/LoginButton.tsx",
-          "hash": "5670328732163692638"
+          "hash": "13589901783786953932"
         },
         {
           "file": "apps/web/src/components/button.tsx",
@@ -321,6 +344,30 @@
         {
           "file": "apps/web/vercel.json",
           "hash": "11963294713451375693"
+        },
+        {
+          "file": "apps/web/graphql.schema.json",
+          "hash": "12066049228105708902"
+        },
+        {
+          "file": "apps/web/gql/index.ts",
+          "hash": "15145554174544902988"
+        },
+        {
+          "file": "apps/web/gql/gql.ts",
+          "hash": "5898759358438633805"
+        },
+        {
+          "file": "apps/web/gql/fragment-masking.ts",
+          "hash": "17945849651638669270"
+        },
+        {
+          "file": "apps/web/gql/graphql.ts",
+          "hash": "13597310828431217611"
+        },
+        {
+          "file": "apps/web/clients/api.ts",
+          "hash": "7559789553241049232"
         }
       ],
       "api": [
