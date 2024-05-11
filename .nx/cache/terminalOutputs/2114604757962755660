@@ -1,0 +1,39 @@
+
+> web@0.1.0 dev /Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web
+> concurrently "pnpm codegen --watch" "next dev"
+
+[0m[0][0m 
+[0m[0][0m > web@0.1.0 codegen /Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web
+[0m[0][0m > graphql-codegen --config codegen.ts "--watch"
+[0m[0][0m 
+[0m[1][0m   [1m[38;2;173;127;168m▲ Next.js 14.2.3[39m[22m
+[0m[1][0m   - Local:        http://localhost:3000
+[0m[1][0m   - Environments: .env
+[0m[1][0m 
+[0m[1][0m  [32m[1m✓[22m[39m Starting...
+[0m[0][0m [STARTED] Parse Configuration
+[0m[0][0m [SUCCESS] Parse Configuration
+[0m[0][0m [STARTED] Generate outputs
+[0m[0][0m [STARTED] Generate to gql/
+[0m[0][0m [STARTED] Generate to ./graphql.schema.json
+[0m[0][0m [STARTED] Load GraphQL schemas
+[0m[0][0m [STARTED] Load GraphQL schemas
+[0m[0][0m [SUCCESS] Load GraphQL schemas
+[0m[0][0m [SUCCESS] Load GraphQL schemas
+[0m[0][0m [STARTED] Load GraphQL documents
+[0m[0][0m [STARTED] Load GraphQL documents
+[0m[1][0m  [32m[1m✓[22m[39m Ready in 2.2s
+[0m[0][0m [SUCCESS] Load GraphQL documents
+[0m[0][0m [STARTED] Generate
+[0m[0][0m [SUCCESS] Generate
+[0m[0][0m [SUCCESS] Generate to gql/
+[0m[0][0m [SUCCESS] Load GraphQL documents
+[0m[0][0m [STARTED] Generate
+[0m[0][0m [SUCCESS] Generate
+[0m[0][0m [SUCCESS] Generate to ./graphql.schema.json
+[0m[0][0m [SUCCESS] Generate outputs
+[0m[0][0m   [34mℹ[39m Watching for changes in /Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web...
+^C[0m[0][0m [41m[30m ELIFECYCLE [39m[49m [31mCommand failed.[39m
+[0m[1][0m [?25h
+[0m[1][0m [0mnext dev exited with code 0[0m
+[0m[0][0m [0mpnpm codegen --watch exited with code SIGINT[0m

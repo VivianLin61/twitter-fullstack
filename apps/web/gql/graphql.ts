@@ -31,6 +31,7 @@ export type Scalars = {
 
 export type Query = {
   __typename?: 'Query';
+  getCurrentUser?: Maybe<User>;
   verifyGoogleToken?: Maybe<Scalars['String']['output']>;
 };
 
@@ -54,6 +55,20 @@ export type VerifyUserGoogleTokenQueryQueryVariables = Exact<{
 export type VerifyUserGoogleTokenQueryQuery = {
   __typename?: 'Query';
   verifyGoogleToken?: string | null;
+};
+
+export type GetCurrentUserQueryVariables = Exact<{ [key: string]: never }>;
+
+export type GetCurrentUserQuery = {
+  __typename?: 'Query';
+  getCurrentUser?: {
+    __typename?: 'User';
+    id: string;
+    firstName: string;
+    lastName?: string | null;
+    email: string;
+    profileImgUrl?: string | null;
+  } | null;
 };
 
 export const VerifyUserGoogleTokenQueryDocument = {
@@ -104,3 +119,35 @@ export const VerifyUserGoogleTokenQueryDocument = {
   VerifyUserGoogleTokenQueryQuery,
   VerifyUserGoogleTokenQueryQueryVariables
 >;
+export const GetCurrentUserDocument = {
+  kind: 'Document',
+  definitions: [
+    {
+      kind: 'OperationDefinition',
+      operation: 'query',
+      name: { kind: 'Name', value: 'getCurrentUser' },
+      selectionSet: {
+        kind: 'SelectionSet',
+        selections: [
+          {
+            kind: 'Field',
+            name: { kind: 'Name', value: 'getCurrentUser' },
+            selectionSet: {
+              kind: 'SelectionSet',
+              selections: [
+                { kind: 'Field', name: { kind: 'Name', value: 'id' } },
+                { kind: 'Field', name: { kind: 'Name', value: 'firstName' } },
+                { kind: 'Field', name: { kind: 'Name', value: 'lastName' } },
+                { kind: 'Field', name: { kind: 'Name', value: 'email' } },
+                {
+                  kind: 'Field',
+                  name: { kind: 'Name', value: 'profileImgUrl' },
+                },
+              ],
+            },
+          },
+        ],
+      },
+    },
+  ],
+} as unknown as DocumentNode<GetCurrentUserQuery, GetCurrentUserQueryVariables>;

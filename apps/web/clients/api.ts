@@ -1,6 +1,5 @@
+import { QueryClient } from '@tanstack/react-query';
 import { GraphQLClient } from 'graphql-request';
-// import { QueryClient } from 'react-query';
-
 const isClient = typeof window !== 'undefined';
 const url = 'http://localhost:8000/graphql';
 export const graphqlClient = new GraphQLClient(url, {
@@ -9,10 +8,10 @@ export const graphqlClient = new GraphQLClient(url, {
   }),
 });
 
-// export const queryClient = new QueryClient({
-//   defaultOptions: {
-//     queries: {
-//       refetchOnWindowFocus: false,
-//     },
-//   },
-// });
+export const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      refetchOnWindowFocus: false,
+    },
+  },
+});

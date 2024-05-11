@@ -1,0 +1,1161 @@
+
+> web@0.1.0 dev /Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web
+> next dev
+
+  [1m[38;2;173;127;168m▲ Next.js 14.2.3[39m[22m
+  - Local:        http://localhost:3000
+  - Environments: .env
+
+ [32m[1m✓[22m[39m Starting...
+ [32m[1m✓[22m[39m Ready in 1546ms
+ [37m[1m○[22m[39m Compiling / ...
+ [32m[1m✓[22m[39m Compiled / in 4.5s (485 modules)
+ GET / [32m200[39m in 4793ms
+ [37m[1m [22m[39m Reload env: .env
+ [32m[1m✓[22m[39m Compiled in 526ms (485 modules)
+ [31m[1m⨯[22m[39m ./providers/AuthProvider.tsx
+Error: 
+  [38;2;255;30;30m×[0m Unexpected token `GoogleOAuthProvider`. Expected jsx identifier
+    ╭─[[38;2;92;157;255;1;4m/Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web/providers/AuthProvider.tsx[0m:4:1]
+ [2m 4[0m │ 
+ [2m 5[0m │ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
+ [2m 6[0m │   return (
+ [2m 7[0m │     <GoogleOAuthProvider
+    · [38;2;246;87;248m     ───────────────────[0m
+ [2m 8[0m │       clientId={"33819804526-7slp6fmpscn80j1bfh5v1f0ngbkf3puc.apps.googleusercontent.com""}
+ [2m 9[0m │     >
+ [2m10[0m │       {children}
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./providers/AuthProvider.tsx
+./src/app/layout.tsx
+ [31m[1m⨯[22m[39m ./providers/AuthProvider.tsx
+Error: 
+  [38;2;255;30;30m×[0m Unexpected token `GoogleOAuthProvider`. Expected jsx identifier
+    ╭─[[38;2;92;157;255;1;4m/Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web/providers/AuthProvider.tsx[0m:4:1]
+ [2m 4[0m │ 
+ [2m 5[0m │ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
+ [2m 6[0m │   return (
+ [2m 7[0m │     <GoogleOAuthProvider
+    · [38;2;246;87;248m     ───────────────────[0m
+ [2m 8[0m │       clientId={"33819804526-7slp6fmpscn80j1bfh5v1f0ngbkf3puc.apps.googleusercontent.com"   "}
+ [2m 9[0m │     >
+ [2m10[0m │       {children}
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./providers/AuthProvider.tsx
+./src/app/layout.tsx
+ [32m[1m✓[22m[39m Compiled in 126ms (471 modules)
+ [32m[1m✓[22m[39m Compiled in 415ms (471 modules)
+ GET / [32m200[39m in 208ms
+ [37m[1m [22m[39m Reload env: .env
+ [32m[1m✓[22m[39m Compiled in 282ms (471 modules)
+ [32m[1m✓[22m[39m Compiled in 124ms (471 modules)
+ GET / [32m200[39m in 241ms
+ [37m[1m [22m[39m Reload env: .env
+ [32m[1m✓[22m[39m Compiled in 173ms (471 modules)
+ [31m[1m⨯[22m[39m ./providers/AuthProvider.tsx
+Error: 
+  [38;2;255;30;30m×[0m Unexpected token `GoogleOAuthProvider`. Expected jsx identifier
+    ╭─[[38;2;92;157;255;1;4m/Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web/providers/AuthProvider.tsx[0m:4:1]
+ [2m 4[0m │ 
+ [2m 5[0m │ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
+ [2m 6[0m │   return (
+ [2m 7[0m │     <GoogleOAuthProvider
+    · [38;2;246;87;248m     ───────────────────[0m
+ [2m 8[0m │       clientId={"33819804526-7slp6fmpscn80j1bfh5v1f0ngbkf3puc.apps.googleusercontent.com""}
+ [2m 9[0m │     >
+ [2m10[0m │       {children}
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./providers/AuthProvider.tsx
+./src/app/layout.tsx
+ [31m[1m⨯[22m[39m ./providers/AuthProvider.tsx
+Error: 
+  [38;2;255;30;30m×[0m Unexpected token `GoogleOAuthProvider`. Expected jsx identifier
+    ╭─[[38;2;92;157;255;1;4m/Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web/providers/AuthProvider.tsx[0m:4:1]
+ [2m 4[0m │ 
+ [2m 5[0m │ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
+ [2m 6[0m │   return (
+ [2m 7[0m │     <GoogleOAuthProvider
+    · [38;2;246;87;248m     ───────────────────[0m
+ [2m 8[0m │       clientId={"33819804526-7slp6fmpscn80j1bfh5v1f0ngbkf3puc.apps.googleusercontent.com"   "}
+ [2m 9[0m │     >
+ [2m10[0m │       {children}
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./providers/AuthProvider.tsx
+./src/app/layout.tsx
+ [32m[1m✓[22m[39m Compiled in 98ms (471 modules)
+ GET / [32m200[39m in 220ms
+ GET / [32m200[39m in 39ms
+ [32m[1m✓[22m[39m Compiled in 235ms (471 modules)
+ GET / [32m200[39m in 168ms
+ GET / [32m200[39m in 129ms
+ [32m[1m✓[22m[39m Compiled in 1396ms (485 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ GET / [32m200[39m in 132ms
+ [32m[1m✓[22m[39m Compiled in 180ms (485 modules)
+ [32m[1m✓[22m[39m Compiled in 203ms (485 modules)
+ [32m[1m✓[22m[39m Compiled in 1083ms (460 modules)
+ [32m[1m✓[22m[39m Compiled in 370ms (232 modules)
+ [32m[1m✓[22m[39m Compiled in 60ms (232 modules)
+ [32m[1m✓[22m[39m Compiled in 54ms (232 modules)
+ [32m[1m✓[22m[39m Compiled in 51ms (232 modules)
+ [32m[1m✓[22m[39m Compiled in 56ms (232 modules)
+ [32m[1m✓[22m[39m Compiled in 55ms (232 modules)
+ [32m[1m✓[22m[39m Compiled in 50ms (232 modules)
+ [32m[1m✓[22m[39m Compiled in 51ms (232 modules)
+ [32m[1m✓[22m[39m Compiled in 60ms (232 modules)
+ [32m[1m✓[22m[39m Compiled in 52ms (232 modules)
+ [32m[1m✓[22m[39m Compiled in 59ms (232 modules)
+ [32m[1m✓[22m[39m Compiled in 59ms (232 modules)
+ [32m[1m✓[22m[39m Compiled in 99ms (232 modules)
+ [32m[1m✓[22m[39m Compiled in 51ms (232 modules)
+ [32m[1m✓[22m[39m Compiled in 176ms (460 modules)
+ [32m[1m✓[22m[39m Compiled in 736ms (457 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 113ms (471 modules)
+ [31m[1m⨯[22m[39m Internal error: Error: Google OAuth components must be used within GoogleOAuthProvider
+    at useGoogleOAuth (../../node_modules/.pnpm/@react-oauth+google@0.12.1_react-dom@18.3.1_react@18.3.1/node_modules/@react-oauth/google/dist/index.esm.js:68:15)
+    at GoogleLogin (../../node_modules/.pnpm/@react-oauth+google@0.12.1_react-dom@18.3.1_react@18.3.1/node_modules/@react-oauth/google/dist/index.esm.js:84:52)
+    at au (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42336
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42822)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ab (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46505)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42336
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42822)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42336
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42822)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:45321)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ab (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ac (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11400)
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:14707)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ab (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ac (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11400)
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:14707)
+digest: "1709613970"
+ GET / [31m500[39m in 217ms
+ [32m[1m✓[22m[39m Compiled in 129ms (471 modules)
+ [31m[1m⨯[22m[39m Internal error: Error: Google OAuth components must be used within GoogleOAuthProvider
+    at useGoogleOAuth (../../node_modules/.pnpm/@react-oauth+google@0.12.1_react-dom@18.3.1_react@18.3.1/node_modules/@react-oauth/google/dist/index.esm.js:68:15)
+    at GoogleLogin (../../node_modules/.pnpm/@react-oauth+google@0.12.1_react-dom@18.3.1_react@18.3.1/node_modules/@react-oauth/google/dist/index.esm.js:84:52)
+    at au (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42336
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42822)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ab (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46505)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42336
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42822)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42336
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42822)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:45321)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ab (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ac (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11400)
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:14707)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ab (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ac (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11400)
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:14707)
+digest: "1709613970"
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ GET / [31m500[39m in 80ms
+ [32m[1m✓[22m[39m Compiled in 158ms (471 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m Internal error: Error: Google OAuth components must be used within GoogleOAuthProvider
+    at useGoogleOAuth (../../node_modules/.pnpm/@react-oauth+google@0.12.1_react-dom@18.3.1_react@18.3.1/node_modules/@react-oauth/google/dist/index.esm.js:68:15)
+    at GoogleLogin (../../node_modules/.pnpm/@react-oauth+google@0.12.1_react-dom@18.3.1_react@18.3.1/node_modules/@react-oauth/google/dist/index.esm.js:84:52)
+    at au (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42336
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42822)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ab (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46505)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42336
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42822)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42336
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42822)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:45321)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ab (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ac (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11400)
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:14707)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ab (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ac (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11400)
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:14707)
+digest: "1709613970"
+ GET / [31m500[39m in 85ms
+ [32m[1m✓[22m[39m Compiled in 136ms (471 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m Internal error: Error: Google OAuth components must be used within GoogleOAuthProvider
+    at useGoogleOAuth (../../node_modules/.pnpm/@react-oauth+google@0.12.1_react-dom@18.3.1_react@18.3.1/node_modules/@react-oauth/google/dist/index.esm.js:68:15)
+    at GoogleLogin (../../node_modules/.pnpm/@react-oauth+google@0.12.1_react-dom@18.3.1_react@18.3.1/node_modules/@react-oauth/google/dist/index.esm.js:84:52)
+    at au (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42336
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42822)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ab (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46505)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42336
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42822)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42336
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42822)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:45321)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ab (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ac (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11400)
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:14707)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ab (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ac (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11400)
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:14707)
+digest: "1709613970"
+ GET / [31m500[39m in 106ms
+ [32m[1m✓[22m[39m Compiled in 127ms (471 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m Internal error: Error: Google OAuth components must be used within GoogleOAuthProvider
+    at useGoogleOAuth (../../node_modules/.pnpm/@react-oauth+google@0.12.1_react-dom@18.3.1_react@18.3.1/node_modules/@react-oauth/google/dist/index.esm.js:68:15)
+    at GoogleLogin (../../node_modules/.pnpm/@react-oauth+google@0.12.1_react-dom@18.3.1_react@18.3.1/node_modules/@react-oauth/google/dist/index.esm.js:84:52)
+    at au (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42336
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42822)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ab (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46505)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42336
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42822)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42336
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42822)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aj (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:45321)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ab (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ac (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11400)
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:14707)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ab (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+    at /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+    at a_ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ac (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11400)
+    at aw (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/.pnpm/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:14707)
+digest: "1709613970"
+ GET / [31m500[39m in 81ms
+ [32m[1m✓[22m[39m Compiled in 208ms (471 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m src/app/layout.tsx (7:23) @ inter
+ [31m[1m⨯[22m[39m ReferenceError: inter is not defined
+    at Layout (./src/app/layout.tsx:14:27)
+    at stringify (<anonymous>)
+digest: "2853479547"
+[0m [90m  5 |[39m     [33m<[39m[33mhtml[39m lang[33m=[39m[32m'en'[39m[33m>[39m[0m
+[0m [90m  6 |[39m       [33m<[39m[33mbody[39m[0m
+[0m[31m[1m>[22m[39m[90m  7 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m    |[39m                       [31m[1m^[22m[39m[0m
+[0m [90m  8 |[39m       [33m>[39m[0m
+[0m [90m  9 |[39m         [33m<[39m[33mQueryProvider[39m[33m>[39m[0m
+[0m [90m 10 |[39m           [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+ [31m[1m⨯[22m[39m src/app/layout.tsx (7:23) @ inter
+ [31m[1m⨯[22m[39m ReferenceError: inter is not defined
+    at Layout (./src/app/layout.tsx:14:27)
+    at stringify (<anonymous>)
+digest: "2853479547"
+[0m [90m  5 |[39m     [33m<[39m[33mhtml[39m lang[33m=[39m[32m'en'[39m[33m>[39m[0m
+[0m [90m  6 |[39m       [33m<[39m[33mbody[39m[0m
+[0m[31m[1m>[22m[39m[90m  7 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m    |[39m                       [31m[1m^[22m[39m[0m
+[0m [90m  8 |[39m       [33m>[39m[0m
+[0m [90m  9 |[39m         [33m<[39m[33mQueryProvider[39m[33m>[39m[0m
+[0m [90m 10 |[39m           [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+ GET / [31m500[39m in 98ms
+ [32m[1m✓[22m[39m Compiled in 92ms (471 modules)
+ [31m[1m⨯[22m[39m src/app/layout.tsx (7:23) @ inter
+ [31m[1m⨯[22m[39m ReferenceError: inter is not defined
+    at Layout (./src/app/layout.tsx:14:27)
+    at stringify (<anonymous>)
+digest: "2853479547"
+[0m [90m  5 |[39m     [33m<[39m[33mhtml[39m lang[33m=[39m[32m'en'[39m[33m>[39m[0m
+[0m [90m  6 |[39m       [33m<[39m[33mbody[39m[0m
+[0m[31m[1m>[22m[39m[90m  7 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m    |[39m                       [31m[1m^[22m[39m[0m
+[0m [90m  8 |[39m       [33m>[39m[0m
+[0m [90m  9 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m 10 |[39m           [33m<[39m[33mSidebar[39m className[33m=[39m[32m'md:col-span-1 lg:col-span-3'[39m [33m/[39m[33m>[39m[0m
+ [31m[1m⨯[22m[39m src/app/layout.tsx (7:23) @ inter
+ [31m[1m⨯[22m[39m ReferenceError: inter is not defined
+    at Layout (./src/app/layout.tsx:14:27)
+    at stringify (<anonymous>)
+digest: "2853479547"
+[0m [90m  5 |[39m     [33m<[39m[33mhtml[39m lang[33m=[39m[32m'en'[39m[33m>[39m[0m
+[0m [90m  6 |[39m       [33m<[39m[33mbody[39m[0m
+[0m[31m[1m>[22m[39m[90m  7 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m    |[39m                       [31m[1m^[22m[39m[0m
+[0m [90m  8 |[39m       [33m>[39m[0m
+[0m [90m  9 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m 10 |[39m           [33m<[39m[33mSidebar[39m className[33m=[39m[32m'md:col-span-1 lg:col-span-3'[39m [33m/[39m[33m>[39m[0m
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ GET / [31m500[39m in 75ms
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 105ms (471 modules)
+ [31m[1m⨯[22m[39m src/app/layout.tsx (7:23) @ inter
+ [31m[1m⨯[22m[39m ReferenceError: inter is not defined
+    at Layout (./src/app/layout.tsx:14:27)
+    at stringify (<anonymous>)
+digest: "2853479547"
+[0m [90m  5 |[39m     [33m<[39m[33mhtml[39m lang[33m=[39m[32m'en'[39m[33m>[39m[0m
+[0m [90m  6 |[39m       [33m<[39m[33mbody[39m[0m
+[0m[31m[1m>[22m[39m[90m  7 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m    |[39m                       [31m[1m^[22m[39m[0m
+[0m [90m  8 |[39m       [33m>[39m[0m
+[0m [90m  9 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m 10 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m' h-full w-full border-l-[0.5px] border-r-[0.5px] border-gray-800 md:col-span-5 md:max-w-2xl md:place-self-center lg:col-span-6'[39m[33m>[39m[0m
+ [31m[1m⨯[22m[39m src/app/layout.tsx (7:23) @ inter
+ [31m[1m⨯[22m[39m ReferenceError: inter is not defined
+    at Layout (./src/app/layout.tsx:14:27)
+    at stringify (<anonymous>)
+digest: "2853479547"
+[0m [90m  5 |[39m     [33m<[39m[33mhtml[39m lang[33m=[39m[32m'en'[39m[33m>[39m[0m
+[0m [90m  6 |[39m       [33m<[39m[33mbody[39m[0m
+[0m[31m[1m>[22m[39m[90m  7 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m    |[39m                       [31m[1m^[22m[39m[0m
+[0m [90m  8 |[39m       [33m>[39m[0m
+[0m [90m  9 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m 10 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m' h-full w-full border-l-[0.5px] border-r-[0.5px] border-gray-800 md:col-span-5 md:max-w-2xl md:place-self-center lg:col-span-6'[39m[33m>[39m[0m
+ [31m[1m⨯[22m[39m src/app/layout.tsx (7:23) @ inter
+ [31m[1m⨯[22m[39m ReferenceError: inter is not defined
+    at Layout (./src/app/layout.tsx:14:27)
+    at stringify (<anonymous>)
+digest: "2853479547"
+[0m [90m  5 |[39m     [33m<[39m[33mhtml[39m lang[33m=[39m[32m'en'[39m[33m>[39m[0m
+[0m [90m  6 |[39m       [33m<[39m[33mbody[39m[0m
+[0m[31m[1m>[22m[39m[90m  7 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m    |[39m                       [31m[1m^[22m[39m[0m
+[0m [90m  8 |[39m       [33m>[39m[0m
+[0m [90m  9 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m 10 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m' h-full w-full border-l-[0.5px] border-r-[0.5px] border-gray-800 md:col-span-5 md:max-w-2xl md:place-self-center lg:col-span-6'[39m[33m>[39m[0m
+ [31m[1m⨯[22m[39m src/app/layout.tsx (7:23) @ inter
+ [31m[1m⨯[22m[39m ReferenceError: inter is not defined
+    at Layout (./src/app/layout.tsx:14:27)
+    at stringify (<anonymous>)
+digest: "2853479547"
+[0m [90m  5 |[39m     [33m<[39m[33mhtml[39m lang[33m=[39m[32m'en'[39m[33m>[39m[0m
+[0m [90m  6 |[39m       [33m<[39m[33mbody[39m[0m
+[0m[31m[1m>[22m[39m[90m  7 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m    |[39m                       [31m[1m^[22m[39m[0m
+[0m [90m  8 |[39m       [33m>[39m[0m
+[0m [90m  9 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m 10 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m' h-full w-full border-l-[0.5px] border-r-[0.5px] border-gray-800 md:col-span-5 md:max-w-2xl md:place-self-center lg:col-span-6'[39m[33m>[39m[0m
+ GET / [31m500[39m in 112ms
+ [32m[1m✓[22m[39m Compiled in 142ms (471 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m src/app/layout.tsx (2:15) @ Inter
+ [31m[1m⨯[22m[39m ReferenceError: Inter is not defined
+    at eval (./src/app/layout.tsx:10:15)
+    at (rsc)/./src/app/layout.tsx (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web/.next/server/app/page.js:172:1)
+    at Function.__webpack_require__ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web/.next/server/webpack-runtime.js:33:42)
+digest: "1521171438"
+[0m [90m 1 |[39m [36mimport[39m [32m'../styles/globals.css'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m [36mconst[39m inter [33m=[39m [33mInter[39m({ subsets[33m:[39m [[32m'latin'[39m] })[33m;[39m[0m
+[0m [90m   |[39m               [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mLayout[39m({ children }[33m:[39m { children[33m:[39m [33mReact[39m[33m.[39m[33mReactNode[39m }) {[0m
+[0m [90m 4 |[39m   [36mreturn[39m ([0m
+[0m [90m 5 |[39m     [33m<[39m[33mhtml[39m lang[33m=[39m[32m'en'[39m[33m>[39m[0m
+ [31m[1m⨯[22m[39m src/app/layout.tsx (2:15) @ Inter
+ [31m[1m⨯[22m[39m ReferenceError: Inter is not defined
+    at eval (./src/app/layout.tsx:10:15)
+    at (rsc)/./src/app/layout.tsx (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web/.next/server/app/page.js:172:1)
+    at Function.__webpack_require__ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web/.next/server/webpack-runtime.js:33:42)
+digest: "1521171438"
+[0m [90m 1 |[39m [36mimport[39m [32m'../styles/globals.css'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m [36mconst[39m inter [33m=[39m [33mInter[39m({ subsets[33m:[39m [[32m'latin'[39m] })[33m;[39m[0m
+[0m [90m   |[39m               [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mLayout[39m({ children }[33m:[39m { children[33m:[39m [33mReact[39m[33m.[39m[33mReactNode[39m }) {[0m
+[0m [90m 4 |[39m   [36mreturn[39m ([0m
+[0m [90m 5 |[39m     [33m<[39m[33mhtml[39m lang[33m=[39m[32m'en'[39m[33m>[39m[0m
+ [31m[1m⨯[22m[39m src/app/layout.tsx (2:15) @ Inter
+ [31m[1m⨯[22m[39m ReferenceError: Inter is not defined
+    at eval (./src/app/layout.tsx:10:15)
+    at (rsc)/./src/app/layout.tsx (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web/.next/server/app/page.js:172:1)
+    at Function.__webpack_require__ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web/.next/server/webpack-runtime.js:33:42)
+digest: "3719278009"
+[0m [90m 1 |[39m [36mimport[39m [32m'../styles/globals.css'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m [36mconst[39m inter [33m=[39m [33mInter[39m({ subsets[33m:[39m [[32m'latin'[39m] })[33m;[39m[0m
+[0m [90m   |[39m               [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mLayout[39m({ children }[33m:[39m { children[33m:[39m [33mReact[39m[33m.[39m[33mReactNode[39m }) {[0m
+[0m [90m 4 |[39m   [36mreturn[39m ([0m
+[0m [90m 5 |[39m     [33m<[39m[33mhtml[39m lang[33m=[39m[32m'en'[39m[33m>[39m[0m
+ReferenceError: Inter is not defined
+    at eval (webpack-internal:///(rsc)/./src/app/layout.tsx:10:15)
+    at (rsc)/./src/app/layout.tsx [90m(/Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web/[39m.next/server/app/page.js:172:1[90m)[39m
+    at Function.__webpack_require__ [90m(/Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web/[39m.next/server/webpack-runtime.js:33:42[90m)[39m
+    at async e9 (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/[4m.pnpm[24m/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/[4mnext[24m/dist/compiled/next-server/app-page.runtime.dev.js:35:396515)
+    at async tb (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/[4m.pnpm[24m/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/[4mnext[24m/dist/compiled/next-server/app-page.runtime.dev.js:35:400212)
+    at async tS (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/[4m.pnpm[24m/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/[4mnext[24m/dist/compiled/next-server/app-page.runtime.dev.js:35:400773)
+    at async tR (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/[4m.pnpm[24m/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/[4mnext[24m/dist/compiled/next-server/app-page.runtime.dev.js:36:2130)
+    at async /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/[4m.pnpm[24m/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/[4mnext[24m/dist/compiled/next-server/app-page.runtime.dev.js:36:2722 {
+  digest: [32m'3719278009'[39m
+}
+ [31m[1m⨯[22m[39m src/app/layout.tsx (2:15) @ Inter
+ [31m[1m⨯[22m[39m ReferenceError: Inter is not defined
+    at eval (webpack-internal:///(rsc)/./src/app/layout.tsx:10:15)
+    at (rsc)/./src/app/layout.tsx [90m(/Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web/[39m.next/server/app/page.js:172:1[90m)[39m
+    at Function.__webpack_require__ [90m(/Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web/[39m.next/server/webpack-runtime.js:33:42[90m)[39m
+    at async e9 (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/[4m.pnpm[24m/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/[4mnext[24m/dist/compiled/next-server/app-page.runtime.dev.js:35:396515)
+    at async tb (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/[4m.pnpm[24m/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/[4mnext[24m/dist/compiled/next-server/app-page.runtime.dev.js:35:400212)
+    at async tS (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/[4m.pnpm[24m/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/[4mnext[24m/dist/compiled/next-server/app-page.runtime.dev.js:35:400773)
+    at async tR (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/[4m.pnpm[24m/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/[4mnext[24m/dist/compiled/next-server/app-page.runtime.dev.js:36:2130)
+    at async /Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/[4m.pnpm[24m/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/[4mnext[24m/dist/compiled/next-server/app-page.runtime.dev.js:36:2722 {
+  digest: [32m'3719278009'[39m,
+  page: [32m'/'[39m
+}
+[0m [90m 1 |[39m [36mimport[39m [32m'../styles/globals.css'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m [36mconst[39m inter [33m=[39m [33mInter[39m({ subsets[33m:[39m [[32m'latin'[39m] })[33m;[39m[0m
+[0m [90m   |[39m               [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mLayout[39m({ children }[33m:[39m { children[33m:[39m [33mReact[39m[33m.[39m[33mReactNode[39m }) {[0m
+[0m [90m 4 |[39m   [36mreturn[39m ([0m
+[0m [90m 5 |[39m     [33m<[39m[33mhtml[39m lang[33m=[39m[32m'en'[39m[33m>[39m[0m
+ [37m[1m○[22m[39m Compiling /_error ...
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled /_error in 933ms (681 modules)
+ GET / [31m500[39m in 1157ms
+ [31m[1m⨯[22m[39m src/app/layout.tsx (2:15) @ Inter
+ [31m[1m⨯[22m[39m ReferenceError: Inter is not defined
+    at eval (webpack-internal:///(rsc)/./src/app/layout.tsx:10:15)
+    at (rsc)/./src/app/layout.tsx [90m(/Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web/[39m.next/server/app/page.js:172:1[90m)[39m
+    at Function.__webpack_require__ [90m(/Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web/[39m.next/server/webpack-runtime.js:33:42[90m)[39m
+    at async e9 (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/[4m.pnpm[24m/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/[4mnext[24m/dist/compiled/next-server/app-page.runtime.dev.js:35:396515)
+    at async rL (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/[4m.pnpm[24m/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/[4mnext[24m/dist/compiled/next-server/app-page.runtime.dev.js:39:7290)
+    at async rU (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/[4m.pnpm[24m/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/[4mnext[24m/dist/compiled/next-server/app-page.runtime.dev.js:39:12534)
+    at async rZ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/[4m.pnpm[24m/next@14.2.3_@babel+core@7.24.5_react-dom@18.3.1_react@18.3.1/node_modules/[4mnext[24m/dist/compiled/next-server/app-page.runtime.dev.js:39:16064) {
+  page: [32m'/'[39m
+}
+[0m [90m 1 |[39m [36mimport[39m [32m'../styles/globals.css'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m [36mconst[39m inter [33m=[39m [33mInter[39m({ subsets[33m:[39m [[32m'latin'[39m] })[33m;[39m[0m
+[0m [90m   |[39m               [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mLayout[39m({ children }[33m:[39m { children[33m:[39m [33mReact[39m[33m.[39m[33mReactNode[39m }) {[0m
+[0m [90m 4 |[39m   [36mreturn[39m ([0m
+[0m [90m 5 |[39m     [33m<[39m[33mhtml[39m lang[33m=[39m[32m'en'[39m[33m>[39m[0m
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 882ms (695 modules)
+ GET / [32m200[39m in 32ms
+ [31m[1m⨯[22m[39m src/app/layout.tsx (11:10) @ AuthProvider
+ [31m[1m⨯[22m[39m ReferenceError: AuthProvider is not defined
+    at Layout (./src/app/layout.tsx:18:99)
+    at stringify (<anonymous>)
+digest: "140721650"
+[0m [90m  9 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m 10 |[39m       [33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m    |[39m          [31m[1m^[22m[39m[0m
+[0m [90m 12 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m' h-full w-full border-l-[0.5px] border-r-[0.5px] border-gray-800 md:col-span-5 md:max-w-2xl md:place-self-center lg:col-span-6'[39m[33m>[39m[0m
+[0m [90m 13 |[39m             {children}[0m
+[0m [90m 14 |[39m           [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+ [31m[1m⨯[22m[39m src/app/layout.tsx (11:10) @ AuthProvider
+ [31m[1m⨯[22m[39m ReferenceError: AuthProvider is not defined
+    at Layout (./src/app/layout.tsx:18:99)
+    at stringify (<anonymous>)
+digest: "140721650"
+[0m [90m  9 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m 10 |[39m       [33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m    |[39m          [31m[1m^[22m[39m[0m
+[0m [90m 12 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m' h-full w-full border-l-[0.5px] border-r-[0.5px] border-gray-800 md:col-span-5 md:max-w-2xl md:place-self-center lg:col-span-6'[39m[33m>[39m[0m
+[0m [90m 13 |[39m             {children}[0m
+[0m [90m 14 |[39m           [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+ [31m[1m⨯[22m[39m src/app/layout.tsx (11:10) @ AuthProvider
+ [31m[1m⨯[22m[39m ReferenceError: AuthProvider is not defined
+    at Layout (./src/app/layout.tsx:18:99)
+    at stringify (<anonymous>)
+digest: "140721650"
+[0m [90m  9 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m 10 |[39m       [33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m    |[39m          [31m[1m^[22m[39m[0m
+[0m [90m 12 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m' h-full w-full border-l-[0.5px] border-r-[0.5px] border-gray-800 md:col-span-5 md:max-w-2xl md:place-self-center lg:col-span-6'[39m[33m>[39m[0m
+[0m [90m 13 |[39m             {children}[0m
+[0m [90m 14 |[39m           [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+ [31m[1m⨯[22m[39m src/app/layout.tsx (11:10) @ AuthProvider
+ [31m[1m⨯[22m[39m ReferenceError: AuthProvider is not defined
+    at Layout (./src/app/layout.tsx:18:99)
+    at stringify (<anonymous>)
+digest: "140721650"
+[0m [90m  9 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m 10 |[39m       [33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m    |[39m          [31m[1m^[22m[39m[0m
+[0m [90m 12 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m' h-full w-full border-l-[0.5px] border-r-[0.5px] border-gray-800 md:col-span-5 md:max-w-2xl md:place-self-center lg:col-span-6'[39m[33m>[39m[0m
+[0m [90m 13 |[39m             {children}[0m
+[0m [90m 14 |[39m           [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+ [31m[1m⨯[22m[39m src/app/layout.tsx (11:10) @ AuthProvider
+ [31m[1m⨯[22m[39m ReferenceError: AuthProvider is not defined
+    at Layout (./src/app/layout.tsx:18:99)
+    at stringify (<anonymous>)
+digest: "140721650"
+[0m [90m  9 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m 10 |[39m       [33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m    |[39m          [31m[1m^[22m[39m[0m
+[0m [90m 12 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m' h-full w-full border-l-[0.5px] border-r-[0.5px] border-gray-800 md:col-span-5 md:max-w-2xl md:place-self-center lg:col-span-6'[39m[33m>[39m[0m
+[0m [90m 13 |[39m             {children}[0m
+[0m [90m 14 |[39m           [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+ [31m[1m⨯[22m[39m src/app/layout.tsx (11:10) @ AuthProvider
+ [31m[1m⨯[22m[39m ReferenceError: AuthProvider is not defined
+    at Layout (./src/app/layout.tsx:18:99)
+    at stringify (<anonymous>)
+digest: "140721650"
+[0m [90m  9 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m 10 |[39m       [33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m    |[39m          [31m[1m^[22m[39m[0m
+[0m [90m 12 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m' h-full w-full border-l-[0.5px] border-r-[0.5px] border-gray-800 md:col-span-5 md:max-w-2xl md:place-self-center lg:col-span-6'[39m[33m>[39m[0m
+[0m [90m 13 |[39m             {children}[0m
+[0m [90m 14 |[39m           [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+ GET / [31m500[39m in 118ms
+ [32m[1m✓[22m[39m Compiled in 81ms (424 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m src/app/layout.tsx (11:10) @ AuthProvider
+ [31m[1m⨯[22m[39m ReferenceError: AuthProvider is not defined
+    at Layout (./src/app/layout.tsx:18:99)
+    at stringify (<anonymous>)
+digest: "140721650"
+[0m [90m  9 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m 10 |[39m       [33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m    |[39m          [31m[1m^[22m[39m[0m
+[0m [90m 12 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m' h-full w-full border-l-[0.5px] border-r-[0.5px] border-gray-800 md:col-span-5 md:max-w-2xl md:place-self-center lg:col-span-6'[39m[33m>[39m[0m
+[0m [90m 13 |[39m             {children}[0m
+[0m [90m 14 |[39m           [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+ [31m[1m⨯[22m[39m src/app/layout.tsx (11:10) @ AuthProvider
+ [31m[1m⨯[22m[39m ReferenceError: AuthProvider is not defined
+    at Layout (./src/app/layout.tsx:18:99)
+    at stringify (<anonymous>)
+digest: "140721650"
+[0m [90m  9 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m 10 |[39m       [33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m    |[39m          [31m[1m^[22m[39m[0m
+[0m [90m 12 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m' h-full w-full border-l-[0.5px] border-r-[0.5px] border-gray-800 md:col-span-5 md:max-w-2xl md:place-self-center lg:col-span-6'[39m[33m>[39m[0m
+[0m [90m 13 |[39m             {children}[0m
+[0m [90m 14 |[39m           [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+ GET / [31m500[39m in 29ms
+ [32m[1m✓[22m[39m Compiled in 92ms (424 modules)
+ [31m[1m⨯[22m[39m src/app/layout.tsx (11:10) @ AuthProvider
+ [31m[1m⨯[22m[39m ReferenceError: AuthProvider is not defined
+    at Layout (./src/app/layout.tsx:18:99)
+    at stringify (<anonymous>)
+digest: "140721650"
+[0m [90m  9 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m 10 |[39m       [33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m    |[39m          [31m[1m^[22m[39m[0m
+[0m [90m 12 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m' h-full w-full border-l-[0.5px] border-r-[0.5px] border-gray-800 md:col-span-5 md:max-w-2xl md:place-self-center lg:col-span-6'[39m[33m>[39m[0m
+[0m [90m 13 |[39m             {children}[0m
+[0m [90m 14 |[39m           [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+ [31m[1m⨯[22m[39m src/app/layout.tsx (11:10) @ AuthProvider
+ [31m[1m⨯[22m[39m ReferenceError: AuthProvider is not defined
+    at Layout (./src/app/layout.tsx:18:99)
+    at stringify (<anonymous>)
+digest: "140721650"
+[0m [90m  9 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m 10 |[39m       [33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m    |[39m          [31m[1m^[22m[39m[0m
+[0m [90m 12 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m' h-full w-full border-l-[0.5px] border-r-[0.5px] border-gray-800 md:col-span-5 md:max-w-2xl md:place-self-center lg:col-span-6'[39m[33m>[39m[0m
+[0m [90m 13 |[39m             {children}[0m
+[0m [90m 14 |[39m           [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ GET / [31m500[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 95ms (424 modules)
+ [31m[1m⨯[22m[39m src/app/layout.tsx (11:10) @ AuthProvider
+ [31m[1m⨯[22m[39m ReferenceError: AuthProvider is not defined
+    at Layout (./src/app/layout.tsx:18:99)
+    at stringify (<anonymous>)
+digest: "140721650"
+[0m [90m  9 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m 10 |[39m       [33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m    |[39m          [31m[1m^[22m[39m[0m
+[0m [90m 12 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m' h-full w-full border-l-[0.5px] border-r-[0.5px] border-gray-800 md:col-span-5 md:max-w-2xl md:place-self-center lg:col-span-6'[39m[33m>[39m[0m
+[0m [90m 13 |[39m             {children}[0m
+[0m [90m 14 |[39m           [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m src/app/layout.tsx (11:10) @ AuthProvider
+ [31m[1m⨯[22m[39m ReferenceError: AuthProvider is not defined
+    at Layout (./src/app/layout.tsx:18:99)
+    at stringify (<anonymous>)
+digest: "140721650"
+[0m [90m  9 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m 10 |[39m       [33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m    |[39m          [31m[1m^[22m[39m[0m
+[0m [90m 12 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m' h-full w-full border-l-[0.5px] border-r-[0.5px] border-gray-800 md:col-span-5 md:max-w-2xl md:place-self-center lg:col-span-6'[39m[33m>[39m[0m
+[0m [90m 13 |[39m             {children}[0m
+[0m [90m 14 |[39m           [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+ GET / [31m500[39m in 31ms
+ [32m[1m✓[22m[39m Compiled in 122ms (424 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m src/app/layout.tsx (11:10) @ AuthProvider
+ [31m[1m⨯[22m[39m ReferenceError: AuthProvider is not defined
+    at Layout (./src/app/layout.tsx:18:99)
+    at stringify (<anonymous>)
+digest: "140721650"
+[0m [90m  9 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m 10 |[39m       [33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m    |[39m          [31m[1m^[22m[39m[0m
+[0m [90m 12 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m' h-full w-full border-l-[0.5px] border-r-[0.5px] border-gray-800 md:col-span-5 md:max-w-2xl md:place-self-center lg:col-span-6'[39m[33m>[39m[0m
+[0m [90m 13 |[39m             {children}[0m
+[0m [90m 14 |[39m           [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+ [31m[1m⨯[22m[39m src/app/layout.tsx (11:10) @ AuthProvider
+ [31m[1m⨯[22m[39m ReferenceError: AuthProvider is not defined
+    at Layout (./src/app/layout.tsx:18:99)
+    at stringify (<anonymous>)
+digest: "140721650"
+[0m [90m  9 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m 10 |[39m       [33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m    |[39m          [31m[1m^[22m[39m[0m
+[0m [90m 12 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m' h-full w-full border-l-[0.5px] border-r-[0.5px] border-gray-800 md:col-span-5 md:max-w-2xl md:place-self-center lg:col-span-6'[39m[33m>[39m[0m
+[0m [90m 13 |[39m             {children}[0m
+[0m [90m 14 |[39m           [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+ GET / [31m500[39m in 43ms
+ [32m[1m✓[22m[39m Compiled in 99ms (424 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m src/app/layout.tsx (11:10) @ AuthProvider
+ [31m[1m⨯[22m[39m ReferenceError: AuthProvider is not defined
+    at Layout (./src/app/layout.tsx:18:99)
+    at stringify (<anonymous>)
+digest: "140721650"
+[0m [90m  9 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m 10 |[39m       [33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m    |[39m          [31m[1m^[22m[39m[0m
+[0m [90m 12 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m' h-full w-full border-l-[0.5px] border-r-[0.5px] border-gray-800 md:col-span-5 md:max-w-2xl md:place-self-center lg:col-span-6'[39m[33m>[39m[0m
+[0m [90m 13 |[39m             {children}[0m
+[0m [90m 14 |[39m           [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+ [31m[1m⨯[22m[39m src/app/layout.tsx (11:10) @ AuthProvider
+ [31m[1m⨯[22m[39m ReferenceError: AuthProvider is not defined
+    at Layout (./src/app/layout.tsx:18:99)
+    at stringify (<anonymous>)
+digest: "140721650"
+[0m [90m  9 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m 10 |[39m       [33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m    |[39m          [31m[1m^[22m[39m[0m
+[0m [90m 12 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m' h-full w-full border-l-[0.5px] border-r-[0.5px] border-gray-800 md:col-span-5 md:max-w-2xl md:place-self-center lg:col-span-6'[39m[33m>[39m[0m
+[0m [90m 13 |[39m             {children}[0m
+[0m [90m 14 |[39m           [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+ GET / [31m500[39m in 48ms
+ [32m[1m✓[22m[39m Compiled in 105ms (424 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m src/app/layout.tsx (11:10) @ AuthProvider
+ [31m[1m⨯[22m[39m ReferenceError: AuthProvider is not defined
+    at Layout (./src/app/layout.tsx:18:99)
+    at stringify (<anonymous>)
+digest: "140721650"
+[0m [90m  9 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m 10 |[39m       [33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m    |[39m          [31m[1m^[22m[39m[0m
+[0m [90m 12 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m' h-full w-full border-l-[0.5px] border-r-[0.5px] border-gray-800 md:col-span-5 md:max-w-2xl md:place-self-center lg:col-span-6'[39m[33m>[39m[0m
+[0m [90m 13 |[39m             {children}[0m
+[0m [90m 14 |[39m           [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+ [31m[1m⨯[22m[39m src/app/layout.tsx (11:10) @ AuthProvider
+ [31m[1m⨯[22m[39m ReferenceError: AuthProvider is not defined
+    at Layout (./src/app/layout.tsx:18:99)
+    at stringify (<anonymous>)
+digest: "140721650"
+[0m [90m  9 |[39m         className[33m=[39m{[32m`${inter.className} flex h-screen w-screen md:grid md:grid-cols-6 lg:grid-cols-12`[39m}[0m
+[0m [90m 10 |[39m       [33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 |[39m         [33m<[39m[33mAuthProvider[39m[33m>[39m[0m
+[0m [90m    |[39m          [31m[1m^[22m[39m[0m
+[0m [90m 12 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m' h-full w-full border-l-[0.5px] border-r-[0.5px] border-gray-800 md:col-span-5 md:max-w-2xl md:place-self-center lg:col-span-6'[39m[33m>[39m[0m
+[0m [90m 13 |[39m             {children}[0m
+[0m [90m 14 |[39m           [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+ GET / [31m500[39m in 39ms
+ [32m[1m✓[22m[39m Compiled in 251ms (702 modules)
+ [31m[1m⨯[22m[39m src/app/layout.tsx (18:16) @ LoginButton
+ [31m[1m⨯[22m[39m ReferenceError: LoginButton is not defined
+    at Layout (./src/app/layout.tsx:34:115)
+    at stringify (<anonymous>)
+digest: "2201910985"
+[0m [90m 16 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m'hidden md:block lg:col-span-3'[39m[33m>[39m[0m
+[0m [90m 17 |[39m             [33m<[39m[33mdiv[39m className[33m=[39m[32m'flex flex-col items-center gap-2 p-4 text-center '[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 18 |[39m               [33m<[39m[33mLoginButton[39m[33m>[39m[0m
+[0m [90m    |[39m                [31m[1m^[22m[39m[0m
+[0m [90m 19 |[39m                 [33m<[39m[33mh1[39m className[33m=[39m[32m'mb-2 text-2xl font-semibold'[39m[33m>[39m[33mNew[39m to twitter[33m?[39m[33m<[39m[33m/[39m[33mh1[39m[33m>[39m[0m
+[0m [90m 20 |[39m               [33m<[39m[33m/[39m[33mLoginButton[39m[33m>[39m[0m
+[0m [90m 21 |[39m             [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+ [31m[1m⨯[22m[39m src/app/layout.tsx (18:16) @ LoginButton
+ [31m[1m⨯[22m[39m ReferenceError: LoginButton is not defined
+    at Layout (./src/app/layout.tsx:34:115)
+    at stringify (<anonymous>)
+digest: "2201910985"
+[0m [90m 16 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m'hidden md:block lg:col-span-3'[39m[33m>[39m[0m
+[0m [90m 17 |[39m             [33m<[39m[33mdiv[39m className[33m=[39m[32m'flex flex-col items-center gap-2 p-4 text-center '[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 18 |[39m               [33m<[39m[33mLoginButton[39m[33m>[39m[0m
+[0m [90m    |[39m                [31m[1m^[22m[39m[0m
+[0m [90m 19 |[39m                 [33m<[39m[33mh1[39m className[33m=[39m[32m'mb-2 text-2xl font-semibold'[39m[33m>[39m[33mNew[39m to twitter[33m?[39m[33m<[39m[33m/[39m[33mh1[39m[33m>[39m[0m
+[0m [90m 20 |[39m               [33m<[39m[33m/[39m[33mLoginButton[39m[33m>[39m[0m
+[0m [90m 21 |[39m             [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ GET / [31m500[39m in 158ms
+ [32m[1m✓[22m[39m Compiled in 215ms (702 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ GET / [32m200[39m in 145ms
+ GET / [32m200[39m in 103ms
+ [32m[1m✓[22m[39m Compiled in 191ms (702 modules)
+ GET / [32m200[39m in 71ms
+ [32m[1m✓[22m[39m Compiled in 229ms (700 modules)
+ [32m[1m✓[22m[39m Compiled in 428ms (686 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / [32m200[39m in 132ms
+ [32m[1m✓[22m[39m Compiled in 183ms (700 modules)
+ [32m[1m✓[22m[39m Compiled in 128ms (700 modules)
+ [32m[1m✓[22m[39m Compiled in 382ms (700 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ GET / [32m200[39m in 66ms
+ [32m[1m✓[22m[39m Compiled in 118ms (700 modules)
+ [32m[1m✓[22m[39m Compiled in 152ms (700 modules)
+ [32m[1m✓[22m[39m Compiled in 329ms (686 modules)
+ [32m[1m✓[22m[39m Compiled in 147ms (686 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (686 modules)
+ [32m[1m✓[22m[39m Compiled in 146ms (686 modules)
+ [32m[1m✓[22m[39m Compiled in 216ms (686 modules)
+ [32m[1m✓[22m[39m Compiled in 266ms (686 modules)
+ [32m[1m✓[22m[39m Compiled in 340ms (686 modules)
+ [32m[1m✓[22m[39m Compiled in 95ms (686 modules)
+ [32m[1m✓[22m[39m Compiled in 94ms (686 modules)
+ [32m[1m✓[22m[39m Compiled in 88ms (686 modules)
+ [32m[1m✓[22m[39m Compiled in 113ms (686 modules)
+ [32m[1m✓[22m[39m Compiled in 77ms (686 modules)
+ [32m[1m✓[22m[39m Compiled in 162ms (686 modules)
+ [32m[1m✓[22m[39m Compiled in 85ms (686 modules)
+ [32m[1m✓[22m[39m Compiled in 81ms (686 modules)
+ [32m[1m✓[22m[39m Compiled in 87ms (686 modules)
+ [32m[1m✓[22m[39m Compiled in 357ms (686 modules)
+ [32m[1m✓[22m[39m Compiled in 90ms (686 modules)
+ [32m[1m✓[22m[39m Compiled in 86ms (686 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 617ms (700 modules)
+ [31m[1m⨯[22m[39m src/components/LoginButton.tsx (4:29) @ useCallback
+ [31m[1m⨯[22m[39m ReferenceError: useCallback is not defined
+    at LoginButton (./src/components/LoginButton.tsx:11:31)
+digest: "1031088178"
+[0m [90m 2 |[39m [36mimport[39m { [33mCredentialResponse[39m[33m,[39m [33mGoogleLogin[39m } [36mfrom[39m [32m'@react-oauth/google'[39m[33m;[39m[0m
+[0m [90m 3 |[39m [36mexport[39m [36mconst[39m [33mLoginButton[39m [33m=[39m ({ children }[33m:[39m { children[33m:[39m [33mReact[39m[33m.[39m[33mReactNode[39m }) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 4 |[39m   [36mconst[39m handleGoogleLogin [33m=[39m useCallback([0m
+[0m [90m   |[39m                             [31m[1m^[22m[39m[0m
+[0m [90m 5 |[39m     [36masync[39m (creds[33m:[39m [33mCredentialResponse[39m) [33m=>[39m {[0m
+[0m [90m 6 |[39m       [36mconst[39m googleToken [33m=[39m creds[33m.[39mcredential[33m;[39m[0m
+[0m [90m 7 |[39m       [36mif[39m ([33m![39mgoogleToken) [36mreturn[39m toast[33m.[39merror([32m'No token found'[39m)[33m;[39m[0m
+ GET / [31m500[39m in 404ms
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 139ms (700 modules)
+ [31m[1m⨯[22m[39m src/components/LoginButton.tsx (4:29) @ useCallback
+ [31m[1m⨯[22m[39m ReferenceError: useCallback is not defined
+    at LoginButton (./src/components/LoginButton.tsx:11:31)
+digest: "1031088178"
+[0m [90m 2 |[39m [36mimport[39m { [33mCredentialResponse[39m[33m,[39m [33mGoogleLogin[39m } [36mfrom[39m [32m'@react-oauth/google'[39m[33m;[39m[0m
+[0m [90m 3 |[39m [36mexport[39m [36mconst[39m [33mLoginButton[39m [33m=[39m ({ children }[33m:[39m { children[33m:[39m [33mReact[39m[33m.[39m[33mReactNode[39m }) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 4 |[39m   [36mconst[39m handleGoogleLogin [33m=[39m useCallback([0m
+[0m [90m   |[39m                             [31m[1m^[22m[39m[0m
+[0m [90m 5 |[39m     [36masync[39m (creds[33m:[39m [33mCredentialResponse[39m) [33m=>[39m {[0m
+[0m [90m 6 |[39m       [36mconst[39m googleToken [33m=[39m creds[33m.[39mcredential[33m;[39m[0m
+[0m [90m 7 |[39m       [36mif[39m ([33m![39mgoogleToken) [36mreturn[39m toast[33m.[39merror([32m'No token found'[39m)[33m;[39m[0m
+ [31m[1m⨯[22m[39m src/components/LoginButton.tsx (4:29) @ useCallback
+ [31m[1m⨯[22m[39m ReferenceError: useCallback is not defined
+    at LoginButton (./src/components/LoginButton.tsx:11:31)
+digest: "1031088178"
+[0m [90m 2 |[39m [36mimport[39m { [33mCredentialResponse[39m[33m,[39m [33mGoogleLogin[39m } [36mfrom[39m [32m'@react-oauth/google'[39m[33m;[39m[0m
+[0m [90m 3 |[39m [36mexport[39m [36mconst[39m [33mLoginButton[39m [33m=[39m ({ children }[33m:[39m { children[33m:[39m [33mReact[39m[33m.[39m[33mReactNode[39m }) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 4 |[39m   [36mconst[39m handleGoogleLogin [33m=[39m useCallback([0m
+[0m [90m   |[39m                             [31m[1m^[22m[39m[0m
+[0m [90m 5 |[39m     [36masync[39m (creds[33m:[39m [33mCredentialResponse[39m) [33m=>[39m {[0m
+[0m [90m 6 |[39m       [36mconst[39m googleToken [33m=[39m creds[33m.[39mcredential[33m;[39m[0m
+[0m [90m 7 |[39m       [36mif[39m ([33m![39mgoogleToken) [36mreturn[39m toast[33m.[39merror([32m'No token found'[39m)[33m;[39m[0m
+ GET / [31m500[39m in 193ms
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 116ms (700 modules)
+ [31m[1m⨯[22m[39m src/components/LoginButton.tsx (4:29) @ useCallback
+ [31m[1m⨯[22m[39m ReferenceError: useCallback is not defined
+    at LoginButton (./src/components/LoginButton.tsx:11:31)
+digest: "1031088178"
+[0m [90m 2 |[39m [36mimport[39m { [33mCredentialResponse[39m[33m,[39m [33mGoogleLogin[39m } [36mfrom[39m [32m'@react-oauth/google'[39m[33m;[39m[0m
+[0m [90m 3 |[39m [36mexport[39m [36mconst[39m [33mLoginButton[39m [33m=[39m ({ children }[33m:[39m { children[33m:[39m [33mReact[39m[33m.[39m[33mReactNode[39m }) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 4 |[39m   [36mconst[39m handleGoogleLogin [33m=[39m useCallback([0m
+[0m [90m   |[39m                             [31m[1m^[22m[39m[0m
+[0m [90m 5 |[39m     [36masync[39m (creds[33m:[39m [33mCredentialResponse[39m) [33m=>[39m {[0m
+[0m [90m 6 |[39m[0m
+[0m [90m 7 |[39m     }[33m,[39m[0m
+ [31m[1m⨯[22m[39m src/components/LoginButton.tsx (4:29) @ useCallback
+ [31m[1m⨯[22m[39m ReferenceError: useCallback is not defined
+    at LoginButton (./src/components/LoginButton.tsx:11:31)
+digest: "1031088178"
+[0m [90m 2 |[39m [36mimport[39m { [33mCredentialResponse[39m[33m,[39m [33mGoogleLogin[39m } [36mfrom[39m [32m'@react-oauth/google'[39m[33m;[39m[0m
+[0m [90m 3 |[39m [36mexport[39m [36mconst[39m [33mLoginButton[39m [33m=[39m ({ children }[33m:[39m { children[33m:[39m [33mReact[39m[33m.[39m[33mReactNode[39m }) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 4 |[39m   [36mconst[39m handleGoogleLogin [33m=[39m useCallback([0m
+[0m [90m   |[39m                             [31m[1m^[22m[39m[0m
+[0m [90m 5 |[39m     [36masync[39m (creds[33m:[39m [33mCredentialResponse[39m) [33m=>[39m {[0m
+[0m [90m 6 |[39m[0m
+[0m [90m 7 |[39m     }[33m,[39m[0m
+ GET / [31m500[39m in 114ms
+ [32m[1m✓[22m[39m Compiled in 108ms (700 modules)
+ [31m[1m⨯[22m[39m src/components/LoginButton.tsx (4:29) @ useCallback
+ [31m[1m⨯[22m[39m ReferenceError: useCallback is not defined
+    at LoginButton (./src/components/LoginButton.tsx:11:31)
+digest: "1031088178"
+[0m [90m 2 |[39m [36mimport[39m { [33mCredentialResponse[39m[33m,[39m [33mGoogleLogin[39m } [36mfrom[39m [32m'@react-oauth/google'[39m[33m;[39m[0m
+[0m [90m 3 |[39m [36mexport[39m [36mconst[39m [33mLoginButton[39m [33m=[39m ({ children }[33m:[39m { children[33m:[39m [33mReact[39m[33m.[39m[33mReactNode[39m }) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 4 |[39m   [36mconst[39m handleGoogleLogin [33m=[39m useCallback([0m
+[0m [90m   |[39m                             [31m[1m^[22m[39m[0m
+[0m [90m 5 |[39m     [36masync[39m (creds[33m:[39m [33mCredentialResponse[39m) [33m=>[39m {[0m
+[0m [90m 6 |[39m       [36mconst[39m googleToken [33m=[39m creds[33m.[39mcredential[33m;[39m[0m
+[0m [90m 7 |[39m       [36mif[39m ([33m![39mgoogleToken) [36mreturn[39m toast[33m.[39merror([32m'No token found'[39m)[33m;[39m[0m
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ GET / [31m500[39m in 67ms
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 152ms (700 modules)
+ [31m[1m⨯[22m[39m src/components/LoginButton.tsx (6:29) @ useCallback
+ [31m[1m⨯[22m[39m ReferenceError: useCallback is not defined
+    at LoginButton (./src/components/LoginButton.tsx:11:31)
+digest: "1031088178"
+[0m [90m 4 |[39m[0m
+[0m [90m 5 |[39m [36mexport[39m [36mconst[39m [33mLoginButton[39m [33m=[39m ({ children }[33m:[39m { children[33m:[39m [33mReact[39m[33m.[39m[33mReactNode[39m }) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 6 |[39m   [36mconst[39m handleGoogleLogin [33m=[39m useCallback([0m
+[0m [90m   |[39m                             [31m[1m^[22m[39m[0m
+[0m [90m 7 |[39m     [36masync[39m (creds[33m:[39m [33mCredentialResponse[39m) [33m=>[39m {[0m
+[0m [90m 8 |[39m       [36mconst[39m googleToken [33m=[39m creds[33m.[39mcredential[33m;[39m[0m
+[0m [90m 9 |[39m       [36mif[39m ([33m![39mgoogleToken) [36mreturn[39m toast[33m.[39merror([32m'No token found'[39m)[33m;[39m[0m
+ [31m[1m⨯[22m[39m src/components/LoginButton.tsx (6:29) @ useCallback
+ [31m[1m⨯[22m[39m ReferenceError: useCallback is not defined
+    at LoginButton (./src/components/LoginButton.tsx:11:31)
+digest: "1031088178"
+[0m [90m 4 |[39m[0m
+[0m [90m 5 |[39m [36mexport[39m [36mconst[39m [33mLoginButton[39m [33m=[39m ({ children }[33m:[39m { children[33m:[39m [33mReact[39m[33m.[39m[33mReactNode[39m }) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 6 |[39m   [36mconst[39m handleGoogleLogin [33m=[39m useCallback([0m
+[0m [90m   |[39m                             [31m[1m^[22m[39m[0m
+[0m [90m 7 |[39m     [36masync[39m (creds[33m:[39m [33mCredentialResponse[39m) [33m=>[39m {[0m
+[0m [90m 8 |[39m       [36mconst[39m googleToken [33m=[39m creds[33m.[39mcredential[33m;[39m[0m
+[0m [90m 9 |[39m       [36mif[39m ([33m![39mgoogleToken) [36mreturn[39m toast[33m.[39merror([32m'No token found'[39m)[33m;[39m[0m
+ GET / [31m500[39m in 111ms
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 209ms (705 modules)
+ [31m[1m⨯[22m[39m src/components/LoginButton.tsx (6:29) @ useCallback
+ [31m[1m⨯[22m[39m ReferenceError: useCallback is not defined
+    at LoginButton (./src/components/LoginButton.tsx:13:31)
+digest: "4172910832"
+[0m [90m 4 |[39m[0m
+[0m [90m 5 |[39m [36mexport[39m [36mconst[39m [33mLoginButton[39m [33m=[39m ({ children }[33m:[39m { children[33m:[39m [33mReact[39m[33m.[39m[33mReactNode[39m }) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 6 |[39m   [36mconst[39m handleGoogleLogin [33m=[39m useCallback([36masync[39m (creds[33m:[39m [33mCredentialResponse[39m) [33m=>[39m {[0m
+[0m [90m   |[39m                             [31m[1m^[22m[39m[0m
+[0m [90m 7 |[39m     [36mconst[39m googleToken [33m=[39m creds[33m.[39mcredential[33m;[39m[0m
+[0m [90m 8 |[39m     [36mif[39m ([33m![39mgoogleToken) [36mreturn[39m toast[33m.[39merror([32m'No token found'[39m)[33m;[39m[0m
+[0m [90m 9 |[39m     [36mconst[39m { verifyGoogleToken } [33m=[39m [36mawait[39m graphqlClient[33m.[39mrequest([0m
+ [31m[1m⨯[22m[39m src/components/LoginButton.tsx (6:29) @ useCallback
+ [31m[1m⨯[22m[39m ReferenceError: useCallback is not defined
+    at LoginButton (./src/components/LoginButton.tsx:13:31)
+digest: "4172910832"
+[0m [90m 4 |[39m[0m
+[0m [90m 5 |[39m [36mexport[39m [36mconst[39m [33mLoginButton[39m [33m=[39m ({ children }[33m:[39m { children[33m:[39m [33mReact[39m[33m.[39m[33mReactNode[39m }) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 6 |[39m   [36mconst[39m handleGoogleLogin [33m=[39m useCallback([36masync[39m (creds[33m:[39m [33mCredentialResponse[39m) [33m=>[39m {[0m
+[0m [90m   |[39m                             [31m[1m^[22m[39m[0m
+[0m [90m 7 |[39m     [36mconst[39m googleToken [33m=[39m creds[33m.[39mcredential[33m;[39m[0m
+[0m [90m 8 |[39m     [36mif[39m ([33m![39mgoogleToken) [36mreturn[39m toast[33m.[39merror([32m'No token found'[39m)[33m;[39m[0m
+[0m [90m 9 |[39m     [36mconst[39m { verifyGoogleToken } [33m=[39m [36mawait[39m graphqlClient[33m.[39mrequest([0m
+ GET / [31m500[39m in 122ms
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 808ms (989 modules)
+ GET / [32m200[39m in 239ms
+ [32m[1m✓[22m[39m Compiled in 211ms (989 modules)
+ GET / [32m200[39m in 84ms
+ [32m[1m✓[22m[39m Compiled in 400ms (975 modules)
+ [32m[1m✓[22m[39m Compiled in 553ms (975 modules)
+ [32m[1m✓[22m[39m Compiled in 313ms (975 modules)
+ GET / [32m200[39m in 203ms
+ [32m[1m✓[22m[39m Compiled in 549ms (975 modules)
+ [32m[1m✓[22m[39m Compiled in 104ms (975 modules)
+ [32m[1m✓[22m[39m Compiled in 101ms (975 modules)
+ [32m[1m✓[22m[39m Compiled in 332ms (569 modules)
+ [32m[1m✓[22m[39m Compiled in 108ms (569 modules)
+ [32m[1m✓[22m[39m Compiled in 75ms (569 modules)
+ [32m[1m✓[22m[39m Compiled in 101ms (569 modules)
+ [32m[1m✓[22m[39m Compiled in 131ms (975 modules)
+ [32m[1m✓[22m[39m Compiled in 401ms (1055 modules)
+ [32m[1m✓[22m[39m Compiled in 114ms (1055 modules)
+ [32m[1m✓[22m[39m Compiled in 73ms (609 modules)
+ [32m[1m✓[22m[39m Compiled in 252ms (1069 modules)
+ [32m[1m✓[22m[39m Compiled in 153ms (1069 modules)
+ [32m[1m✓[22m[39m Compiled in 213ms (1069 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (1071 modules)
+ [32m[1m✓[22m[39m Compiled in 163ms (1071 modules)
+ [32m[1m✓[22m[39m Compiled in 221ms (1071 modules)
+ [32m[1m✓[22m[39m Compiled in 178ms (1071 modules)
+ [32m[1m✓[22m[39m Compiled in 143ms (1071 modules)
+ [32m[1m✓[22m[39m Compiled in 343ms (1071 modules)
+ [32m[1m✓[22m[39m Compiled in 139ms (1071 modules)
+ [32m[1m✓[22m[39m Compiled in 172ms (1071 modules)
+ [32m[1m✓[22m[39m Compiled in 343ms (1071 modules)
+ [32m[1m✓[22m[39m Compiled in 168ms (1071 modules)
+ [32m[1m✓[22m[39m Compiled in 208ms (1069 modules)
+ [32m[1m✓[22m[39m Compiled in 330ms (1071 modules)
+ [32m[1m✓[22m[39m Compiled in 177ms (1071 modules)
+ [32m[1m✓[22m[39m Compiled in 224ms (1071 modules)
+ [32m[1m✓[22m[39m Compiled in 399ms (1071 modules)
+ [32m[1m✓[22m[39m Compiled in 171ms (1071 modules)
+ [32m[1m✓[22m[39m Compiled in 480ms (1124 modules)
+ [32m[1m✓[22m[39m Compiled in 243ms (1124 modules)
+ [32m[1m✓[22m[39m Compiled in 147ms (1124 modules)
+ [32m[1m✓[22m[39m Compiled in 203ms (1124 modules)
+ [32m[1m✓[22m[39m Compiled in 272ms (1111 modules)
+ [32m[1m✓[22m[39m Compiled in 182ms (1111 modules)
+ [32m[1m✓[22m[39m Compiled in 275ms (1125 modules)
+ GET / [32m200[39m in 225ms
+ GET / [32m200[39m in 114ms
+ GET / [32m200[39m in 46ms
+ [32m[1m✓[22m[39m Compiled in 498ms (1125 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ [32m[1m✓[22m[39m Compiled in 559ms (839 modules)
+ [31m[1m⨯[22m[39m clients/api.ts (5:30) @ eval
+ [31m[1m⨯[22m[39m ReferenceError: GraphQLClient is not defined
+    at eval (./clients/api.ts:10:23)
+    at (ssr)/./clients/api.ts (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web/.next/server/app/page.js:140:1)
+    at __webpack_require__ (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web/.next/server/webpack-runtime.js:33:42)
+    at eval (./src/providers/QueryProvider.tsx:9:69)
+    at (ssr)/./src/providers/QueryProvider.tsx (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web/.next/server/app/page.js:239:1)
+    at Object.__webpack_require__ [as require] (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web/.next/server/webpack-runtime.js:33:42)
+digest: "140548292"
+[0m [90m 3 |[39m [36mconst[39m isClient [33m=[39m [36mtypeof[39m window [33m!==[39m [32m'undefined'[39m[33m;[39m[0m
+[0m [90m 4 |[39m [36mconst[39m url [33m=[39m [32m'http://localhost:8000/graphql'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 5 |[39m [36mexport[39m [36mconst[39m graphqlClient [33m=[39m [36mnew[39m [33mGraphQLClient[39m(url[33m,[39m {[0m
+[0m [90m   |[39m                              [31m[1m^[22m[39m[0m
+[0m [90m 6 |[39m   headers[33m:[39m () [33m=>[39m ({[0m
+[0m [90m 7 |[39m     [33mAuthorization[39m[33m:[39m isClient [33m?[39m [32m`Bearer ${localStorage.getItem('token')}`[39m [33m:[39m [32m''[39m[33m,[39m[0m
+[0m [90m 8 |[39m   })[33m,[39m[0m
+ GET / [31m500[39m in 372ms
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 432ms (1111 modules)
+ GET / [32m200[39m in 351ms
+ GET / [32m200[39m in 89ms
+ GET / [32m200[39m in 39ms
+ [32m[1m✓[22m[39m Compiled in 461ms (1113 modules)
+ GET / [32m200[39m in 223ms
+ [32m[1m✓[22m[39m Compiled in 506ms (1127 modules)
+ [32m[1m✓[22m[39m Compiled in 184ms (1125 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m src/components/LoginButton.tsx (31:6) @ queryClient
+ [31m[1m⨯[22m[39m ReferenceError: queryClient is not defined
+    at LoginButton (./src/components/LoginButton.tsx:35:9)
+digest: "2904828705"
+[0m [90m 29 |[39m     [90m//   await queryClient.invalidateQueries(['getCurrentUser']);[39m[0m
+[0m [90m 30 |[39m     }[33m,[39m[0m
+[0m[31m[1m>[22m[39m[90m 31 |[39m     [queryClient][0m
+[0m [90m    |[39m      [31m[1m^[22m[39m[0m
+[0m [90m 32 |[39m   )[33m;[39m[0m
+[0m [90m 33 |[39m[0m
+[0m [90m 34 |[39m   [36mreturn[39m ([0m
+ GET / [31m500[39m in 201ms
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 209ms (1125 modules)
+ [31m[1m⨯[22m[39m src/components/LoginButton.tsx (31:3) @ LoginButton
+ [31m[1m⨯[22m[39m ReferenceError: user is not defined
+    at LoginButton (./src/components/LoginButton.tsx:35:5)
+digest: "1115054573"
+[0m [90m 29 |[39m   }[33m,[39m [])[33m;[39m[0m
+[0m [90m 30 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 31 |[39m   [36mreturn[39m ([0m
+[0m [90m    |[39m   [31m[1m^[22m[39m[0m
+[0m [90m 32 |[39m     [33m![39muser [33m&&[39m ([0m
+[0m [90m 33 |[39m       [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 34 |[39m         {children}[0m
+ [31m[1m⨯[22m[39m src/components/LoginButton.tsx (31:3) @ LoginButton
+ [31m[1m⨯[22m[39m ReferenceError: user is not defined
+    at LoginButton (./src/components/LoginButton.tsx:35:5)
+digest: "1115054573"
+[0m [90m 29 |[39m   }[33m,[39m [])[33m;[39m[0m
+[0m [90m 30 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 31 |[39m   [36mreturn[39m ([0m
+[0m [90m    |[39m   [31m[1m^[22m[39m[0m
+[0m [90m 32 |[39m     [33m![39muser [33m&&[39m ([0m
+[0m [90m 33 |[39m       [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 34 |[39m         {children}[0m
+ GET / [31m500[39m in 300ms
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 284ms (1125 modules)
+ GET / [32m200[39m in 160ms
+ [32m[1m✓[22m[39m Compiled in 449ms (1109 modules)
+ [32m[1m✓[22m[39m Compiled in 173ms (1109 modules)
+ [32m[1m✓[22m[39m Compiled in 139ms (1109 modules)
+ GET / [32m200[39m in 224ms
+ [32m[1m✓[22m[39m Compiled in 321ms (1123 modules)
+ [32m[1m✓[22m[39m Compiled in 431ms (1125 modules)
+ [32m[1m✓[22m[39m Compiled in 209ms (1125 modules)
+ GET / [32m200[39m in 94ms
+pnp    [32m[1m✓[22m[39m Compiled in 516ms (1111 modules)
+ [32m[1m✓[22m[39m Compiled in 331ms (1111 modules)
+^C[?25h

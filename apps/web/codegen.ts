@@ -14,6 +14,11 @@ const config: CodegenConfig = {
       plugins: ['introspection'],
     },
   },
+  hooks: {
+    afterOneFileWrite: [
+      "sed -i '' -e '1s|.*|import type { GraphQLClient, RequestOptions } from \"graphql-request\";|' -e '2s|.*|type GraphQLClientRequestHeaders = RequestOptions[\"requestHeaders\"];|' src/lib/graphql/generated.ts",
+    ],
+  },
 };
 
 export default config;
