@@ -1,0 +1,327 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.0.2",
+  "deps": {
+    "husky": "^7.0.4",
+    "nx": "^19.0.2",
+    "@commitlint/cli": "^16.3.0",
+    "@commitlint/config-conventional": "^16.2.4"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".husky/post-merge",
+        "hash": "16146438816338692493"
+      },
+      {
+        "file": "package.json",
+        "hash": "6830541921172945402"
+      },
+      {
+        "file": "commitlint.config.js",
+        "hash": "1085937044812020921"
+      },
+      {
+        "file": ".nx/cache/d/server-process.json",
+        "hash": "7397391004610802794"
+      },
+      {
+        "file": ".husky/commit-msg",
+        "hash": "8477230314128361436"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "9153566771833488958"
+      },
+      {
+        "file": "nx.json",
+        "hash": "7905224585918534913"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "13108396804214547201"
+      },
+      {
+        "file": ".husky/pre-commit",
+        "hash": "8469265186761294654"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "10496319069564883250"
+      }
+    ],
+    "projectFileMap": {
+      "web": [
+        {
+          "file": "apps/web/.env.example",
+          "hash": "5639387268790131859"
+        },
+        {
+          "file": "apps/web/.eslintrc.js",
+          "hash": "3963400212011881327"
+        },
+        {
+          "file": "apps/web/.github/FUNDING.yml",
+          "hash": "10361682140880351502"
+        },
+        {
+          "file": "apps/web/.github/issue-branch.yml",
+          "hash": "12527953360292378847"
+        },
+        {
+          "file": "apps/web/.github/pull_request_template.md",
+          "hash": "5124718306651534542"
+        },
+        {
+          "file": "apps/web/.github/workflows/create-branch.yml",
+          "hash": "18380117614559440243"
+        },
+        {
+          "file": "apps/web/.github/workflows/issue-autolink.yml",
+          "hash": "11804640546971632305"
+        },
+        {
+          "file": "apps/web/.github/workflows/lint.yml",
+          "hash": "16775723404120894606"
+        },
+        {
+          "file": "apps/web/.github/workflows/release-please.yml",
+          "hash": "5028705011229085858"
+        },
+        {
+          "file": "apps/web/.gitignore",
+          "hash": "13436282213758558470"
+        },
+        {
+          "file": "apps/web/.npmrc",
+          "hash": "2200804006676008938"
+        },
+        {
+          "file": "apps/web/.nvmrc",
+          "hash": "6554913747721116396"
+        },
+        {
+          "file": "apps/web/.prettierignore",
+          "hash": "11294514073622989918"
+        },
+        {
+          "file": "apps/web/.prettierrc.js",
+          "hash": "6123871226561772580"
+        },
+        {
+          "file": "apps/web/.vscode/css.code-snippets",
+          "hash": "2781127247140221375"
+        },
+        {
+          "file": "apps/web/.vscode/extensions.json",
+          "hash": "3297730207155674489"
+        },
+        {
+          "file": "apps/web/.vscode/settings.json",
+          "hash": "15646148548804038603"
+        },
+        {
+          "file": "apps/web/.vscode/typescriptreact.code-snippets",
+          "hash": "5169969397173229"
+        },
+        {
+          "file": "apps/web/jest.config.js",
+          "hash": "6867719462767940768"
+        },
+        {
+          "file": "apps/web/jest.setup.js",
+          "hash": "13921964784479407434"
+        },
+        {
+          "file": "apps/web/next-sitemap.config.js",
+          "hash": "5498470694261689489"
+        },
+        {
+          "file": "apps/web/next.config.js",
+          "hash": "13894463121586735611"
+        },
+        {
+          "file": "apps/web/package.json",
+          "hash": "15260833922024128120",
+          "deps": [
+            "npm:class-variance-authority",
+            "npm:classnames",
+            "npm:clsx",
+            "npm:lucide-react",
+            "npm:next",
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-icons",
+            "npm:react-intersection-observer",
+            "npm:tailwind-merge",
+            "npm:zod",
+            "npm:@commitlint/cli",
+            "npm:@commitlint/config-conventional",
+            "npm:@svgr/webpack",
+            "npm:@tailwindcss/forms",
+            "npm:@testing-library/jest-dom",
+            "npm:@testing-library/react",
+            "npm:@types/react",
+            "npm:@types/testing-library__jest-dom",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:autoprefixer",
+            "npm:eslint",
+            "npm:eslint-config-next",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-simple-import-sort",
+            "npm:eslint-plugin-unused-imports",
+            "npm:husky",
+            "npm:jest",
+            "npm:lint-staged",
+            "npm:next-router-mock",
+            "npm:next-sitemap",
+            "npm:postcss",
+            "npm:prettier",
+            "npm:prettier-plugin-tailwindcss",
+            "npm:tailwindcss",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "apps/web/pnpm-lock.yaml",
+          "hash": "10991052630304033409"
+        },
+        {
+          "file": "apps/web/postcss.config.js",
+          "hash": "8055263870272897227"
+        },
+        {
+          "file": "apps/web/public/favicon/android-chrome-192x192.png",
+          "hash": "14530905449779175229"
+        },
+        {
+          "file": "apps/web/public/favicon/android-chrome-512x512.png",
+          "hash": "5035564821734939977"
+        },
+        {
+          "file": "apps/web/public/favicon/apple-touch-icon.png",
+          "hash": "7939821714228897496"
+        },
+        {
+          "file": "apps/web/public/favicon/favicon-16x16.png",
+          "hash": "10015919230967691070"
+        },
+        {
+          "file": "apps/web/public/favicon/favicon-32x32.png",
+          "hash": "6730318218047513207"
+        },
+        {
+          "file": "apps/web/public/favicon/favicon.ico",
+          "hash": "7245655522005845772"
+        },
+        {
+          "file": "apps/web/public/favicon/site.webmanifest",
+          "hash": "10101008548561763152"
+        },
+        {
+          "file": "apps/web/public/fonts/inter-var-latin.woff2",
+          "hash": "10736054465631340141"
+        },
+        {
+          "file": "apps/web/public/svg/Logo.svg",
+          "hash": "17897385202576246394"
+        },
+        {
+          "file": "apps/web/public/svg/Vercel.svg",
+          "hash": "16974478996899747043"
+        },
+        {
+          "file": "apps/web/public/vercel.svg",
+          "hash": "3233056503954796132"
+        },
+        {
+          "file": "apps/web/renovate.json",
+          "hash": "17331496358760948992"
+        },
+        {
+          "file": "apps/web/src/__mocks__/svg.tsx",
+          "hash": "16098103972563874909"
+        },
+        {
+          "file": "apps/web/src/__tests__/pages/HomePage.test.tsx",
+          "hash": "12196387424240729481"
+        },
+        {
+          "file": "apps/web/src/app/api/hello/route.ts",
+          "hash": "10182341914886833652"
+        },
+        {
+          "file": "apps/web/src/app/layout.tsx",
+          "hash": "4651772249181270542"
+        },
+        {
+          "file": "apps/web/src/app/not-found.tsx",
+          "hash": "12654241023335236236"
+        },
+        {
+          "file": "apps/web/src/app/page.tsx",
+          "hash": "15221582609821870125"
+        },
+        {
+          "file": "apps/web/src/components/FeedCard/index.tsx",
+          "hash": "9611442642853225215"
+        },
+        {
+          "file": "apps/web/src/components/button.tsx",
+          "hash": "4904225099399521078"
+        },
+        {
+          "file": "apps/web/src/constant/config.ts",
+          "hash": "1992965476261309141"
+        },
+        {
+          "file": "apps/web/src/constant/env.ts",
+          "hash": "13958225063995387086"
+        },
+        {
+          "file": "apps/web/src/lib/__tests__/og.test.ts",
+          "hash": "17989821253962856908"
+        },
+        {
+          "file": "apps/web/src/lib/env.ts",
+          "hash": "7906481350174336593"
+        },
+        {
+          "file": "apps/web/src/lib/helper.ts",
+          "hash": "13855601930002144521"
+        },
+        {
+          "file": "apps/web/src/lib/logger.ts",
+          "hash": "1479497636680848004"
+        },
+        {
+          "file": "apps/web/src/lib/og.ts",
+          "hash": "28053138532135717"
+        },
+        {
+          "file": "apps/web/src/lib/utils.ts",
+          "hash": "10358681833224758619"
+        },
+        {
+          "file": "apps/web/src/styles/globals.css",
+          "hash": "10953235441554447301"
+        },
+        {
+          "file": "apps/web/tailwind.config.ts",
+          "hash": "12659213586070517888"
+        },
+        {
+          "file": "apps/web/tsconfig.json",
+          "hash": "1713642147137362939"
+        },
+        {
+          "file": "apps/web/vercel.json",
+          "hash": "11963294713451375693"
+        }
+      ]
+    }
+  }
+}
