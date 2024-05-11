@@ -1,0 +1,287 @@
+
+> api@1.0.0 dev /Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/api
+> tsc-watch --onSuccess "npm start"
+
+c12:29:47 PM - Starting compilation in watch mode...
+
+
+12:29:48 PM -[32m Found 0 errors. Watching for file changes.[39m
+
+> api@1.0.0 start
+> node build/index
+
+server started on port 8000
+eyJhbGciOiJSUzI1NiIsImtpZCI6ImEzYjc2MmY4NzFjZGIzYmFlMDA0NGM2NDk2MjJmYzEzOTZlZGEzZTMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzMzgxOTgwNDUyNi1kN2RpYnE5YmVvNGkwM2FnZm9xNXBhZGZqdHMxYzhzby5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF1ZCI6IjMzODE5ODA0NTI2LWQ3ZGlicTliZW80aTAzYWdmb3E1cGFkZmp0czFjOHNvLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA4NjE3NzU5MjEwNTU0Mjk3OTk5IiwiZW1haWwiOiJsaW52aXZpYW42MUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmJmIjoxNzE1NDQ1MDUyLCJuYW1lIjoiVml2aWFuIExpbiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NKNFZSdGpGdjdvWkdjYXRtNFRQYng2ZkJ5U2dONDJCRmZmUUlBREV2SXl5czBscmk5Sj1zOTYtYyIsImdpdmVuX25hbWUiOiJWaXZpYW4iLCJmYW1pbHlfbmFtZSI6IkxpbiIsImlhdCI6MTcxNTQ0NTM1MiwiZXhwIjoxNzE1NDQ4OTUyLCJqdGkiOiIxMmJiYmRiZGIwYjc4ZDY4MmUzNTUyNGUxYjZmZjllOTdjMGI5ZWNmIn0.AomBKYu4Ucmdspb4eWZg6HwFkQ5xZ67PABIGvhOzUfjNXwViq0BfGoVJY6W6eifPffdnvg1cB9085kW8P1Ybil-mC_z8RySFPcRuwbfMnGypXyrRKOPQ-07QzQnQ-Zo1uSvJyviSv9n1YksYxEnQIp5vNy1ZxHkif4PPbERXrpQvw8lJTiTmPctziyDE_60bCFQHpN-kAMi-S8W9l2xU8H2JE0RWerWECMiF657iMepcUraCH4-dkBfi-6P_4ynGUSZPD3j1EEpU-tJk7Hc7jjgG9Sa3_XQElRWFQh1sldFuySNUfBbK1KcU-t8IdxBcJnVlE5WgRhfeFcKP2ZUa_Q
+eyJhbGciOiJSUzI1NiIsImtpZCI6ImEzYjc2MmY4NzFjZGIzYmFlMDA0NGM2NDk2MjJmYzEzOTZlZGEzZTMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzMzgxOTgwNDUyNi1kN2RpYnE5YmVvNGkwM2FnZm9xNXBhZGZqdHMxYzhzby5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF1ZCI6IjMzODE5ODA0NTI2LWQ3ZGlicTliZW80aTAzYWdmb3E1cGFkZmp0czFjOHNvLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA4NjE3NzU5MjEwNTU0Mjk3OTk5IiwiZW1haWwiOiJsaW52aXZpYW42MUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmJmIjoxNzE1NDQ1MDUyLCJuYW1lIjoiVml2aWFuIExpbiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NKNFZSdGpGdjdvWkdjYXRtNFRQYng2ZkJ5U2dONDJCRmZmUUlBREV2SXl5czBscmk5Sj1zOTYtYyIsImdpdmVuX25hbWUiOiJWaXZpYW4iLCJmYW1pbHlfbmFtZSI6IkxpbiIsImlhdCI6MTcxNTQ0NTM1MiwiZXhwIjoxNzE1NDQ4OTUyLCJqdGkiOiIxMmJiYmRiZGIwYjc4ZDY4MmUzNTUyNGUxYjZmZjllOTdjMGI5ZWNmIn0.AomBKYu4Ucmdspb4eWZg6HwFkQ5xZ67PABIGvhOzUfjNXwViq0BfGoVJY6W6eifPffdnvg1cB9085kW8P1Ybil-mC_z8RySFPcRuwbfMnGypXyrRKOPQ-07QzQnQ-Zo1uSvJyviSv9n1YksYxEnQIp5vNy1ZxHkif4PPbERXrpQvw8lJTiTmPctziyDE_60bCFQHpN-kAMi-S8W9l2xU8H2JE0RWerWECMiF657iMepcUraCH4-dkBfi-6P_4ynGUSZPD3j1EEpU-tJk7Hc7jjgG9Sa3_XQElRWFQh1sldFuySNUfBbK1KcU-t8IdxBcJnVlE5WgRhfeFcKP2ZUa_Q
+c12:47:25 PM - File change detected. Starting incremental compilation...
+
+
+12:47:25 PM -[32m Found 0 errors. Watching for file changes.[39m
+
+> api@1.0.0 start
+> node build/index
+
+server started on port 8000
+c12:47:27 PM - File change detected. Starting incremental compilation...
+
+src/app/services/jwt.ts[36m(3,25): error TS2307: [39mCannot find module '../../interfaces' or its corresponding type declarations.
+
+12:47:27 PM -[31m Found 1 error. Watching for file changes.[39m
+c12:47:29 PM - File change detected. Starting incremental compilation...
+
+src/app/services/jwt.ts[36m(7,20): error TS2304: [39mCannot find name 'JWTUser'.
+src/app/services/jwt.ts[36m(16,47): error TS2304: [39mCannot find name 'JWTUser'.
+
+12:47:29 PM -[31m Found 2 errors. Watching for file changes.[39m
+c12:47:30 PM - File change detected. Starting incremental compilation...
+
+src/app/services/jwt.ts[36m(3,25): error TS2307: [39mCannot find module '../../interfaces' or its corresponding type declarations.
+
+12:47:30 PM -[31m Found 1 error. Watching for file changes.[39m
+c12:47:35 PM - File change detected. Starting incremental compilation...
+
+src/app/services/jwt.ts[36m(7,20): error TS2304: [39mCannot find name 'JWTUser'.
+src/app/services/jwt.ts[36m(16,47): error TS2304: [39mCannot find name 'JWTUser'.
+
+12:47:35 PM -[31m Found 2 errors. Watching for file changes.[39m
+c12:47:37 PM - File change detected. Starting incremental compilation...
+
+
+12:47:37 PM -[32m Found 0 errors. Watching for file changes.[39m
+
+> api@1.0.0 start
+> node build/index
+
+server started on port 8000
+c12:47:52 PM - File change detected. Starting incremental compilation...
+
+
+12:47:52 PM -[32m Found 0 errors. Watching for file changes.[39m
+
+> api@1.0.0 start
+> node build/index
+
+server started on port 8000
+c12:47:59 PM - File change detected. Starting incremental compilation...
+
+src/app/services/user.ts[36m(2,30): error TS2307: [39mCannot find module '../../clients/db' or its corresponding type declarations.
+
+12:47:59 PM -[31m Found 1 error. Watching for file changes.[39m
+c12:48:03 PM - File change detected. Starting incremental compilation...
+
+src/app/services/user.ts[36m(2,30): error TS2307: [39mCannot find module '../../clients/db' or its corresponding type declarations.
+
+12:48:03 PM -[31m Found 1 error. Watching for file changes.[39m
+c12:48:06 PM - File change detected. Starting incremental compilation...
+
+src/app/services/user.ts[36m(36,24): error TS2304: [39mCannot find name 'prismaClient'.
+src/app/services/user.ts[36m(40,13): error TS2304: [39mCannot find name 'prismaClient'.
+src/app/services/user.ts[36m(49,28): error TS2304: [39mCannot find name 'prismaClient'.
+
+12:48:06 PM -[31m Found 3 errors. Watching for file changes.[39m
+c12:48:40 PM - File change detected. Starting incremental compilation...
+
+src/app/services/user.ts[36m(36,24): error TS2304: [39mCannot find name 'prismaClient'.
+src/app/services/user.ts[36m(40,13): error TS2304: [39mCannot find name 'prismaClient'.
+src/app/services/user.ts[36m(49,28): error TS2304: [39mCannot find name 'prismaClient'.
+
+12:48:40 PM -[31m Found 3 errors. Watching for file changes.[39m
+c12:48:45 PM - File change detected. Starting incremental compilation...
+
+src/app/services/user.ts[36m(36,24): error TS2304: [39mCannot find name 'prismaClient'.
+src/app/services/user.ts[36m(40,13): error TS2304: [39mCannot find name 'prismaClient'.
+src/app/services/user.ts[36m(49,28): error TS2304: [39mCannot find name 'prismaClient'.
+
+12:48:45 PM -[31m Found 3 errors. Watching for file changes.[39m
+c12:48:52 PM - File change detected. Starting incremental compilation...
+
+
+12:48:52 PM -[32m Found 0 errors. Watching for file changes.[39m
+
+> api@1.0.0 start
+> node build/index
+
+server started on port 8000
+eyJhbGciOiJSUzI1NiIsImtpZCI6ImEzYjc2MmY4NzFjZGIzYmFlMDA0NGM2NDk2MjJmYzEzOTZlZGEzZTMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzMzgxOTgwNDUyNi1kN2RpYnE5YmVvNGkwM2FnZm9xNXBhZGZqdHMxYzhzby5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF1ZCI6IjMzODE5ODA0NTI2LWQ3ZGlicTliZW80aTAzYWdmb3E1cGFkZmp0czFjOHNvLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA4NjE3NzU5MjEwNTU0Mjk3OTk5IiwiZW1haWwiOiJsaW52aXZpYW42MUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmJmIjoxNzE1NDQ1MDUyLCJuYW1lIjoiVml2aWFuIExpbiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NKNFZSdGpGdjdvWkdjYXRtNFRQYng2ZkJ5U2dONDJCRmZmUUlBREV2SXl5czBscmk5Sj1zOTYtYyIsImdpdmVuX25hbWUiOiJWaXZpYW4iLCJmYW1pbHlfbmFtZSI6IkxpbiIsImlhdCI6MTcxNTQ0NTM1MiwiZXhwIjoxNzE1NDQ4OTUyLCJqdGkiOiIxMmJiYmRiZGIwYjc4ZDY4MmUzNTUyNGUxYjZmZjllOTdjMGI5ZWNmIn0.AomBKYu4Ucmdspb4eWZg6HwFkQ5xZ67PABIGvhOzUfjNXwViq0BfGoVJY6W6eifPffdnvg1cB9085kW8P1Ybil-mC_z8RySFPcRuwbfMnGypXyrRKOPQ-07QzQnQ-Zo1uSvJyviSv9n1YksYxEnQIp5vNy1ZxHkif4PPbERXrpQvw8lJTiTmPctziyDE_60bCFQHpN-kAMi-S8W9l2xU8H2JE0RWerWECMiF657iMepcUraCH4-dkBfi-6P_4ynGUSZPD3j1EEpU-tJk7Hc7jjgG9Sa3_XQElRWFQh1sldFuySNUfBbK1KcU-t8IdxBcJnVlE5WgRhfeFcKP2ZUa_Q
+c12:49:51 PM - File change detected. Starting incremental compilation...
+
+src/app/user/resolvers.ts[36m(3,22): error TS2304: [39mCannot find name 'UserService'.
+
+12:49:51 PM -[31m Found 1 error. Watching for file changes.[39m
+c12:49:54 PM - File change detected. Starting incremental compilation...
+
+src/app/user/resolvers.ts[36m(3,22): error TS2304: [39mCannot find name 'UserService'.
+
+12:49:54 PM -[31m Found 1 error. Watching for file changes.[39m
+c12:49:56 PM - File change detected. Starting incremental compilation...
+
+
+12:49:56 PM -[32m Found 0 errors. Watching for file changes.[39m
+
+> api@1.0.0 start
+> node build/index
+
+server started on port 8000
+[34mprisma:query[39m SELECT "public"."User"."id", "public"."User"."firstName", "public"."User"."lastName", "public"."User"."email", "public"."User"."profileImgUrl", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."email" = $1 AND 1=1) LIMIT $2 OFFSET $3
+[34mprisma:query[39m INSERT INTO "public"."User" ("id","firstName","lastName","email","profileImgUrl","createdAt","updatedAt") VALUES ($1,$2,$3,$4,$5,$6,$7) RETURNING "public"."User"."id", "public"."User"."firstName", "public"."User"."lastName", "public"."User"."email", "public"."User"."profileImgUrl", "public"."User"."createdAt", "public"."User"."updatedAt"
+[34mprisma:query[39m SELECT "public"."User"."id", "public"."User"."firstName", "public"."User"."lastName", "public"."User"."email", "public"."User"."profileImgUrl", "public"."User"."createdAt", "public"."User"."updatedAt" FROM "public"."User" WHERE ("public"."User"."email" = $1 AND 1=1) LIMIT $2 OFFSET $3
+c12:58:18 PM - File change detected. Starting incremental compilation...
+
+
+12:58:18 PM -[32m Found 0 errors. Watching for file changes.[39m
+
+> api@1.0.0 start
+> node build/index
+
+server started on port 8000
+c12:58:49 PM - File change detected. Starting incremental compilation...
+
+
+12:58:49 PM -[32m Found 0 errors. Watching for file changes.[39m
+
+> api@1.0.0 start
+> node build/index
+
+server started on port 8000
+c1:04:16 PM - File change detected. Starting incremental compilation...
+
+
+1:04:16 PM -[32m Found 0 errors. Watching for file changes.[39m
+c1:04:17 PM - File change detected. Starting incremental compilation...
+
+> api@1.0.0 start
+> node build/index
+
+
+src/app/user/resolvers.ts[36m(1,32): error TS2307: [39mCannot find module '../../interfaces' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(3,29): error TS2307: [39mCannot find module '../services/user' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(4,30): error TS2307: [39mCannot find module '../services/tweet' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(5,30): error TS2307: [39mCannot find module '../../clients/db' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(6,29): error TS2307: [39mCannot find module '../../clients/redis' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(59,23): error TS7006: [39mParameter 'e' implicitly has an 'any' type.
+src/app/user/resolvers.ts[36m(66,23): error TS7006: [39mParameter 'e' implicitly has an 'any' type.
+
+1:04:17 PM -[31m Found 7 errors. Watching for file changes.[39m
+server started on port 8000
+c1:05:04 PM - File change detected. Starting incremental compilation...
+
+src/app/user/resolvers.ts[36m(1,32): error TS2307: [39mCannot find module '../../interfaces' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(3,29): error TS2307: [39mCannot find module '../services/user' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(4,30): error TS2307: [39mCannot find module '../services/tweet' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(5,30): error TS2307: [39mCannot find module '../../clients/db' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(6,29): error TS2307: [39mCannot find module '../../clients/redis' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(59,23): error TS7006: [39mParameter 'e' implicitly has an 'any' type.
+src/app/user/resolvers.ts[36m(66,23): error TS7006: [39mParameter 'e' implicitly has an 'any' type.
+
+1:05:04 PM -[31m Found 7 errors. Watching for file changes.[39m
+c1:05:06 PM - File change detected. Starting incremental compilation...
+
+src/app/service/user.ts[36m(2,28): error TS2307: [39mCannot find module './jwt' or its corresponding type declarations.
+src/app/service/user.ts[36m(3,30): error TS2307: [39mCannot find module '../../clients/db' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(1,32): error TS2307: [39mCannot find module '../../interfaces' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(3,29): error TS2307: [39mCannot find module '../services/user' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(4,30): error TS2307: [39mCannot find module '../services/tweet' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(5,30): error TS2307: [39mCannot find module '../../clients/db' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(6,29): error TS2307: [39mCannot find module '../../clients/redis' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(59,23): error TS7006: [39mParameter 'e' implicitly has an 'any' type.
+src/app/user/resolvers.ts[36m(66,23): error TS7006: [39mParameter 'e' implicitly has an 'any' type.
+
+1:05:06 PM -[31m Found 9 errors. Watching for file changes.[39m
+c1:05:09 PM - File change detected. Starting incremental compilation...
+
+src/app/service/user.ts[36m(2,23): error TS1005: [39m'from' expected.
+src/app/service/user.ts[36m(2,27): error TS1005: [39m';' expected.
+
+1:05:09 PM -[31m Found 2 errors. Watching for file changes.[39m
+c1:05:14 PM - File change detected. Starting incremental compilation...
+
+src/app/service/user.ts[36m(2,23): error TS1005: [39m'from' expected.
+src/app/service/user.ts[36m(2,27): error TS1005: [39m';' expected.
+
+1:05:14 PM -[31m Found 2 errors. Watching for file changes.[39m
+c1:05:18 PM - File change detected. Starting incremental compilation...
+
+src/app/service/user.ts[36m(2,23): error TS1005: [39m'from' expected.
+src/app/service/user.ts[36m(2,27): error TS1005: [39m';' expected.
+
+1:05:18 PM -[31m Found 2 errors. Watching for file changes.[39m
+c1:05:19 PM - File change detected. Starting incremental compilation...
+
+src/app/service/user.ts[36m(2,23): error TS1005: [39m'from' expected.
+src/app/service/user.ts[36m(2,27): error TS1005: [39m';' expected.
+
+1:05:19 PM -[31m Found 2 errors. Watching for file changes.[39m
+c1:05:24 PM - File change detected. Starting incremental compilation...
+
+src/app/service/user.ts[36m(2,23): error TS1005: [39m'from' expected.
+src/app/service/user.ts[36m(2,27): error TS1005: [39m';' expected.
+
+1:05:24 PM -[31m Found 2 errors. Watching for file changes.[39m
+c1:05:25 PM - File change detected. Starting incremental compilation...
+
+src/app/service/user.ts[36m(35,24): error TS2304: [39mCannot find name 'prismaClient'.
+src/app/service/user.ts[36m(39,13): error TS2304: [39mCannot find name 'prismaClient'.
+src/app/service/user.ts[36m(48,28): error TS2304: [39mCannot find name 'prismaClient'.
+src/app/service/user.ts[36m(54,23): error TS2304: [39mCannot find name 'JWTService'.
+src/app/user/resolvers.ts[36m(1,32): error TS2307: [39mCannot find module '../../interfaces' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(3,29): error TS2307: [39mCannot find module '../services/user' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(4,30): error TS2307: [39mCannot find module '../services/tweet' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(5,30): error TS2307: [39mCannot find module '../../clients/db' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(6,29): error TS2307: [39mCannot find module '../../clients/redis' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(59,23): error TS7006: [39mParameter 'e' implicitly has an 'any' type.
+src/app/user/resolvers.ts[36m(66,23): error TS7006: [39mParameter 'e' implicitly has an 'any' type.
+
+1:05:26 PM -[31m Found 11 errors. Watching for file changes.[39m
+c1:05:40 PM - File change detected. Starting incremental compilation...
+
+src/app/service/user.ts[36m(35,24): error TS2304: [39mCannot find name 'prismaClient'.
+src/app/service/user.ts[36m(39,13): error TS2304: [39mCannot find name 'prismaClient'.
+src/app/service/user.ts[36m(48,28): error TS2304: [39mCannot find name 'prismaClient'.
+src/app/service/user.ts[36m(54,23): error TS2304: [39mCannot find name 'JWTService'.
+src/app/user/resolvers.ts[36m(1,32): error TS2307: [39mCannot find module '../../interfaces' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(3,29): error TS2307: [39mCannot find module '../services/user' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(4,30): error TS2307: [39mCannot find module '../services/tweet' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(5,30): error TS2307: [39mCannot find module '../../clients/db' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(6,29): error TS2307: [39mCannot find module '../../clients/redis' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(59,23): error TS7006: [39mParameter 'e' implicitly has an 'any' type.
+src/app/user/resolvers.ts[36m(66,23): error TS7006: [39mParameter 'e' implicitly has an 'any' type.
+
+1:05:40 PM -[31m Found 11 errors. Watching for file changes.[39m
+c1:05:43 PM - File change detected. Starting incremental compilation...
+
+src/app/service/user.ts[36m(35,24): error TS2304: [39mCannot find name 'prismaClient'.
+src/app/service/user.ts[36m(39,13): error TS2304: [39mCannot find name 'prismaClient'.
+src/app/service/user.ts[36m(48,28): error TS2304: [39mCannot find name 'prismaClient'.
+src/app/service/user.ts[36m(54,23): error TS2304: [39mCannot find name 'JWTService'.
+src/app/user/resolvers.ts[36m(1,32): error TS2307: [39mCannot find module '../../interfaces' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(3,29): error TS2307: [39mCannot find module '../services/user' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(4,30): error TS2307: [39mCannot find module '../services/tweet' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(5,30): error TS2307: [39mCannot find module '../../clients/db' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(6,29): error TS2307: [39mCannot find module '../../clients/redis' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(59,23): error TS7006: [39mParameter 'e' implicitly has an 'any' type.
+src/app/user/resolvers.ts[36m(66,23): error TS7006: [39mParameter 'e' implicitly has an 'any' type.
+
+1:05:43 PM -[31m Found 11 errors. Watching for file changes.[39m
+c1:05:47 PM - File change detected. Starting incremental compilation...
+
+src/app/user/resolvers.ts[36m(1,32): error TS2307: [39mCannot find module '../../interfaces' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(3,29): error TS2307: [39mCannot find module '../services/user' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(4,30): error TS2307: [39mCannot find module '../services/tweet' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(5,30): error TS2307: [39mCannot find module '../../clients/db' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(6,29): error TS2307: [39mCannot find module '../../clients/redis' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(59,23): error TS7006: [39mParameter 'e' implicitly has an 'any' type.
+src/app/user/resolvers.ts[36m(66,23): error TS7006: [39mParameter 'e' implicitly has an 'any' type.
+
+1:05:47 PM -[31m Found 7 errors. Watching for file changes.[39m
+c1:06:17 PM - File change detected. Starting incremental compilation...
+
+src/app/user/resolvers.ts[36m(1,32): error TS2307: [39mCannot find module '../../interfaces' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(3,29): error TS2307: [39mCannot find module '../services/user' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(4,30): error TS2307: [39mCannot find module '../services/tweet' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(5,30): error TS2307: [39mCannot find module '../../clients/db' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(6,29): error TS2307: [39mCannot find module '../../clients/redis' or its corresponding type declarations.
+src/app/user/resolvers.ts[36m(59,23): error TS7006: [39mParameter 'e' implicitly has an 'any' type.
+src/app/user/resolvers.ts[36m(66,23): error TS7006: [39mParameter 'e' implicitly has an 'any' type.
+
+1:06:17 PM -[31m Found 7 errors. Watching for file changes.[39m
+^X^Z^X^C

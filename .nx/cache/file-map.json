@@ -12,20 +12,8 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".husky/commit-msg",
-        "hash": "8477230314128361436"
-      },
-      {
-        "file": "package.json",
-        "hash": "8697924228503338857"
-      },
-      {
-        "file": ".husky/post-merge",
-        "hash": "16146438816338692493"
-      },
-      {
-        "file": ".husky/pre-commit",
-        "hash": "8469265186761294654"
+        "file": ".gitignore",
+        "hash": "9153566771833488958"
       },
       {
         "file": "commitlint.config.js",
@@ -40,12 +28,24 @@
         "hash": "13108396804214547201"
       },
       {
-        "file": ".gitignore",
-        "hash": "9153566771833488958"
-      },
-      {
         "file": "nx.json",
         "hash": "7905224585918534913"
+      },
+      {
+        "file": ".husky/post-merge",
+        "hash": "16146438816338692493"
+      },
+      {
+        "file": ".husky/pre-commit",
+        "hash": "8469265186761294654"
+      },
+      {
+        "file": ".husky/commit-msg",
+        "hash": "8477230314128361436"
+      },
+      {
+        "file": "package.json",
+        "hash": "8697924228503338857"
       }
     ],
     "projectFileMap": {
@@ -358,7 +358,7 @@
         },
         {
           "file": "apps/api/src/app/index.ts",
-          "hash": "16969943589154776144"
+          "hash": "11992132878198473174"
         },
         {
           "file": "apps/api/src/index.ts",
@@ -371,6 +371,38 @@
         {
           "file": "apps/api/tsconfig.json",
           "hash": "16475280922404664230"
+        },
+        {
+          "file": "apps/api/src/app/user/types.ts",
+          "hash": "5726942551744462247"
+        },
+        {
+          "file": "apps/api/src/app/user/resolvers.ts",
+          "hash": "10144660582225595591"
+        },
+        {
+          "file": "apps/api/src/app/user/queries.ts",
+          "hash": "13399291597907107384"
+        },
+        {
+          "file": "apps/api/src/app/user/index.ts",
+          "hash": "1940811257471299335"
+        },
+        {
+          "file": "apps/api/src/app/user/mutations.ts",
+          "hash": "4274489864531017769"
+        },
+        {
+          "file": "apps/api/src/app/service/user.ts",
+          "hash": "13892688111235079877"
+        },
+        {
+          "file": "apps/api/src/app/service/jwt.ts",
+          "hash": "6602871044604724079"
+        },
+        {
+          "file": "apps/api/src/app/clients/db/index.ts",
+          "hash": "9222501366684876445"
         }
       ]
     }

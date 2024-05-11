@@ -1,18 +1,18 @@
 {
   "run": {
-    "command": "nx lint:fix web",
-    "startTime": "2024-05-11T11:09:43.332Z",
-    "endTime": "2024-05-11T11:09:45.911Z",
+    "command": "nx dev api",
+    "startTime": "2024-05-11T16:29:47.080Z",
+    "endTime": "2024-05-11T17:06:32.309Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "web:lint:fix",
-      "target": "lint:fix",
-      "projectName": "web",
-      "hash": "5567147960407449132",
-      "startTime": "2024-05-11T11:09:43.338Z",
-      "endTime": "2024-05-11T11:09:45.910Z",
+      "taskId": "api:dev",
+      "target": "dev",
+      "projectName": "api",
+      "hash": "1017880703469252075",
+      "startTime": "2024-05-11T16:29:47.086Z",
+      "endTime": "2024-05-11T17:06:32.309Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0
