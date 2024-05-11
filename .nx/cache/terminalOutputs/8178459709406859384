@@ -1,0 +1,48 @@
+
+> web@0.1.0 dev /Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web
+> concurrently "pnpm codegen --watch" "next dev"
+
+[0m[1][0m Invalid next.config.js options detected: 
+[0m[1][0m     Unrecognized key(s) in object: 'images' at "images"
+[0m[1][0m See more info here: https://nextjs.org/docs/messages/invalid-next-config
+[0m[1][0m [0mnext dev exited with code 1[0m
+[0m[0][0m 
+[0m[0][0m > web@0.1.0 codegen /Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/web
+[0m[0][0m > graphql-codegen --config codegen.ts "--watch"
+[0m[0][0m 
+[0m[0][0m [STARTED] Parse Configuration
+[0m[0][0m [SUCCESS] Parse Configuration
+[0m[0][0m [STARTED] Generate outputs
+[0m[0][0m [STARTED] Generate to gql/
+[0m[0][0m [STARTED] Generate to ./graphql.schema.json
+[0m[0][0m [STARTED] Load GraphQL schemas
+[0m[0][0m [STARTED] Load GraphQL schemas
+[0m[0][0m [SUCCESS] Load GraphQL schemas
+[0m[0][0m [SUCCESS] Load GraphQL schemas
+[0m[0][0m [STARTED] Load GraphQL documents
+[0m[0][0m [STARTED] Load GraphQL documents
+[0m[0][0m [SUCCESS] Load GraphQL documents
+[0m[0][0m [STARTED] Generate
+[0m[0][0m [SUCCESS] Generate
+[0m[0][0m [SUCCESS] Generate to ./graphql.schema.json
+[0m[0][0m [SUCCESS] Load GraphQL documents
+[0m[0][0m [STARTED] Generate
+[0m[0][0m [SUCCESS] Generate
+[0m[0][0m [SUCCESS] Generate to gql/
+[0m[0][0m [SUCCESS] Generate outputs
+[0m[0][0m Error: Command failed: sed -i '' -e '1s|.*|import type { GraphQLClient, RequestOptions } from "graphql-request";|' -e '2s|.*|type GraphQLClientRequestHeaders = RequestOptions["requestHeaders"];|' src/lib/graphql/generated.ts gql/index.ts
+[0m[0][0m sed: src/lib/graphql/generated.ts: No such file or directory
+[0m[0][0m 
+[0m[0][0m [90m    at ChildProcess.exithandler (node:child_process:422:12)[39m
+[0m[0][0m [90m    at ChildProcess.emit (node:events:517:28)[39m
+[0m[0][0m [90m    at maybeClose (node:internal/child_process:1098:16)[39m
+[0m[0][0m [90m    at Socket.<anonymous> (node:internal/child_process:450:11)[39m
+[0m[0][0m [90m    at Socket.emit (node:events:517:28)[39m
+[0m[0][0m [90m    at Pipe.<anonymous> (node:net:350:12)[39m {
+[0m[0][0m   code: [33m1[39m,
+[0m[0][0m   killed: [33mfalse[39m,
+[0m[0][0m   signal: [1mnull[22m,
+[0m[0][0m   cmd: [32m`sed -i '' -e '1s|.*|import type { GraphQLClient, RequestOptions } from "graphql-request";|' -e '2s|.*|type GraphQLClientRequestHeaders = RequestOptions["requestHeaders"];|' src/lib/graphql/generated.ts gql/index.ts`[39m
+[0m[0][0m }
+[0m[0][0m [0mpnpm codegen --watch exited with code 0[0m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m

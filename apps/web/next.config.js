@@ -5,12 +5,11 @@ const nextConfig = {
   },
 
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'pbs.twimg.com',
-        port: '',
-      },
+    domains: [
+      'avatars.githubusercontent.com',
+      'lh3.googleusercontent.com',
+      'images.unsplash.com',
+      'dezire-twitter-clone-dev.s3.ap-south-1.amazonaws.com',
     ],
   },
   reactStrictMode: true,
