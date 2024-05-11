@@ -4,9 +4,18 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "serve:all": "pnpm run start:web & pnpm run start:api",
         "start:web": "pnpm exec nx dev web",
         "lint:web": "pnpm exec nx lint web",
         "lint:fix:web": "pnpm exec nx lint:fix web",
+        "start:api": "pnpm exec nx dev api",
+        "----DB SECTION----": "------------------------",
+        "db:generate": "pnpm --filter api exec prisma generate",
+        "db:push": "pnpm --filter api exec prisma db push",
+        "db:migrate:dev": "pnpm --filter api exec prisma migrate dev",
+        "db:studio": "pnpm --filter api exec prisma studio",
+        "db:seed": "pnpm --filter api exec prisma db seed",
+        "db:reset": "pnpm --filter api exec prisma migrate reset",
         "test": "echo \"Error: no test specified\" && exit 1",
         "prepare": "husky install"
     },

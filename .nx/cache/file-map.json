@@ -12,8 +12,28 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": ".husky/commit-msg",
+        "hash": "8477230314128361436"
+      },
+      {
+        "file": "package.json",
+        "hash": "8697924228503338857"
+      },
+      {
+        "file": ".husky/post-merge",
+        "hash": "16146438816338692493"
+      },
+      {
+        "file": ".husky/pre-commit",
+        "hash": "8469265186761294654"
+      },
+      {
         "file": "commitlint.config.js",
         "hash": "1085937044812020921"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "4171712924733872752"
       },
       {
         "file": "pnpm-workspace.yaml",
@@ -24,32 +44,8 @@
         "hash": "9153566771833488958"
       },
       {
-        "file": ".husky/post-merge",
-        "hash": "16146438816338692493"
-      },
-      {
         "file": "nx.json",
         "hash": "7905224585918534913"
-      },
-      {
-        "file": ".nx/cache/d/server-process.json",
-        "hash": "7397391004610802794"
-      },
-      {
-        "file": "pnpm-lock.yaml",
-        "hash": "10496319069564883250"
-      },
-      {
-        "file": ".husky/commit-msg",
-        "hash": "8477230314128361436"
-      },
-      {
-        "file": ".husky/pre-commit",
-        "hash": "8469265186761294654"
-      },
-      {
-        "file": "package.json",
-        "hash": "479769124484111944"
       }
     ],
     "projectFileMap": {
@@ -263,11 +259,7 @@
         },
         {
           "file": "apps/web/src/app/page.tsx",
-          "hash": "10017346946241768934"
-        },
-        {
-          "file": "apps/web/src/components/FeedCard/index.tsx",
-          "hash": "9611442642853225215"
+          "hash": "4424954732816734510"
         },
         {
           "file": "apps/web/src/components/button.tsx",
@@ -320,6 +312,65 @@
         {
           "file": "apps/web/vercel.json",
           "hash": "11963294713451375693"
+        }
+      ],
+      "api": [
+        {
+          "file": "apps/api/.gitignore",
+          "hash": "3268938738577749595"
+        },
+        {
+          "file": "apps/api/package.json",
+          "hash": "2191001322927038005",
+          "deps": [
+            "npm:@apollo/server",
+            "npm:@aws-sdk/client-s3",
+            "npm:@aws-sdk/s3-request-presigner",
+            "npm:@prisma/client",
+            "npm:axios",
+            "npm:body-parser",
+            "npm:cors",
+            "npm:dotenv",
+            "npm:express",
+            "npm:graphql",
+            "npm:ioredis",
+            "npm:jsonwebtoken",
+            "npm:@types/body-parser",
+            "npm:@types/cors",
+            "npm:@types/express",
+            "npm:@types/jsonwebtoken",
+            "npm:prisma",
+            "npm:tsc-watch",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "apps/api/prisma/migrations/20240511125448_/migration.sql",
+          "hash": "2969482022588892738"
+        },
+        {
+          "file": "apps/api/prisma/migrations/migration_lock.toml",
+          "hash": "11493296588214560035"
+        },
+        {
+          "file": "apps/api/prisma/schema.prisma",
+          "hash": "14162470540319591963"
+        },
+        {
+          "file": "apps/api/src/app/index.ts",
+          "hash": "16969943589154776144"
+        },
+        {
+          "file": "apps/api/src/index.ts",
+          "hash": "18202761302939250095"
+        },
+        {
+          "file": "apps/api/src/interface.ts",
+          "hash": "5124726343336635550"
+        },
+        {
+          "file": "apps/api/tsconfig.json",
+          "hash": "16475280922404664230"
         }
       ]
     }
