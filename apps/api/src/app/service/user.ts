@@ -56,4 +56,9 @@ export class UserService {
     const userToken = JWTService.generateTokenForUser(userInDb);
     return userToken;
   }
+  public static getUserById(id: string) {
+    return prismaClient.user.findUnique({
+      where: { id },
+    });
+  }
 }

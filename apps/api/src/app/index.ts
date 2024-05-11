@@ -4,6 +4,7 @@ import { expressMiddleware } from "@apollo/server/express4";
 import bodyParser from "body-parser";
 import cors from "cors";
 import { User } from "./user";
+import { JWTService } from "./service/jwt";
 
 export const initServer = async () => {
   const app = express();
@@ -28,7 +29,13 @@ export const initServer = async () => {
   app.use(
     "/graphql",
     expressMiddleware(graphqlServer, {
-      context: async ({ req }) => ({ token: req.headers.token }),
+      context: async ({ req, res }) => ({
+        user: req.headers.authorization
+          ? await JWTService.decodeToken(
+              req.headers.authorization.split("Bearer ")[1]
+            )
+          : undefined,
+      }),
     })
   );
 
