@@ -1,3 +1,9 @@
+import TweetModal from '@/components/TweetModal';
+
 export default function Home() {
-  return <main></main>;
+  return (
+    <main>
+      <TweetModal />
+    </main>
+  );
 }
