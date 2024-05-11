@@ -12,44 +12,44 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".husky/post-merge",
-        "hash": "16146438816338692493"
-      },
-      {
-        "file": "package.json",
-        "hash": "6830541921172945402"
-      },
-      {
         "file": "commitlint.config.js",
         "hash": "1085937044812020921"
-      },
-      {
-        "file": ".nx/cache/d/server-process.json",
-        "hash": "7397391004610802794"
-      },
-      {
-        "file": ".husky/commit-msg",
-        "hash": "8477230314128361436"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "9153566771833488958"
-      },
-      {
-        "file": "nx.json",
-        "hash": "7905224585918534913"
       },
       {
         "file": "pnpm-workspace.yaml",
         "hash": "13108396804214547201"
       },
       {
-        "file": ".husky/pre-commit",
-        "hash": "8469265186761294654"
+        "file": ".gitignore",
+        "hash": "9153566771833488958"
+      },
+      {
+        "file": ".husky/post-merge",
+        "hash": "16146438816338692493"
+      },
+      {
+        "file": "nx.json",
+        "hash": "7905224585918534913"
+      },
+      {
+        "file": ".nx/cache/d/server-process.json",
+        "hash": "7397391004610802794"
       },
       {
         "file": "pnpm-lock.yaml",
         "hash": "10496319069564883250"
+      },
+      {
+        "file": ".husky/commit-msg",
+        "hash": "8477230314128361436"
+      },
+      {
+        "file": ".husky/pre-commit",
+        "hash": "8469265186761294654"
+      },
+      {
+        "file": "package.json",
+        "hash": "479769124484111944"
       }
     ],
     "projectFileMap": {
@@ -263,7 +263,7 @@
         },
         {
           "file": "apps/web/src/app/page.tsx",
-          "hash": "15221582609821870125"
+          "hash": "10017346946241768934"
         },
         {
           "file": "apps/web/src/components/FeedCard/index.tsx",

@@ -4,6 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "start:web": "pnpm exec nx dev web",
+        "lint:web": "pnpm exec nx lint web",
+        "lint:fix:web": "pnpm exec nx lint:fix web",
         "test": "echo \"Error: no test specified\" && exit 1",
         "prepare": "husky install"
     },
