@@ -1,4 +1,5 @@
 'use client';
+import { useCreateTweet } from 'hooks/tweets';
 import { useGetCurrentUser } from 'hooks/user';
 import Image from 'next/image';
 import React, { useCallback, useState } from 'react';
@@ -11,10 +12,10 @@ import { MdEventRepeat } from 'react-icons/md';
 export const TweetModal = () => {
   const { user } = useGetCurrentUser();
   const [content, setContent] = useState('');
+  const { mutate } = useCreateTweet();
   const handleCreateTweet = useCallback(() => {
-    // create tweet
-    // console.log(content);
-  }, []);
+    mutate({ content });
+  }, [mutate, content]);
 
   return (
     <section className='h-min-48 grid grid-cols-12  gap-2 border-b-[0.5px] border-b-gray-800 p-4'>
