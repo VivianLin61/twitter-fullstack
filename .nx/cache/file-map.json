@@ -12,134 +12,43 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "pnpm-workspace.yaml",
-        "hash": "13108396804214547201"
-      },
-      {
-        "file": "package.json",
-        "hash": "6463340096807443761"
+        "file": ".husky/commit-msg",
+        "hash": "8477230314128361436"
       },
       {
         "file": ".husky/post-merge",
         "hash": "16146438816338692493"
       },
       {
-        "file": "nx.json",
-        "hash": "7905224585918534913"
-      },
-      {
-        "file": ".husky/pre-commit",
-        "hash": "8469265186761294654"
+        "file": "pnpm-lock.yaml",
+        "hash": "4268594072448181130"
       },
       {
         "file": ".gitignore",
         "hash": "9153566771833488958"
       },
       {
-        "file": "pnpm-lock.yaml",
-        "hash": "4268594072448181130"
+        "file": ".husky/pre-commit",
+        "hash": "8469265186761294654"
       },
       {
-        "file": ".husky/commit-msg",
-        "hash": "8477230314128361436"
+        "file": "pnpm-workspace.yaml",
+        "hash": "13108396804214547201"
+      },
+      {
+        "file": "nx.json",
+        "hash": "7905224585918534913"
       },
       {
         "file": "commitlint.config.js",
         "hash": "1085937044812020921"
+      },
+      {
+        "file": "package.json",
+        "hash": "6463340096807443761"
       }
     ],
     "projectFileMap": {
-      "api": [
-        {
-          "file": "apps/api/.gitignore",
-          "hash": "3268938738577749595"
-        },
-        {
-          "file": "apps/api/package.json",
-          "hash": "2191001322927038005",
-          "deps": [
-            "npm:@apollo/server",
-            "npm:@aws-sdk/client-s3",
-            "npm:@aws-sdk/s3-request-presigner",
-            "npm:@prisma/client",
-            "npm:axios",
-            "npm:body-parser",
-            "npm:cors",
-            "npm:dotenv",
-            "npm:express",
-            "npm:graphql",
-            "npm:ioredis",
-            "npm:jsonwebtoken",
-            "npm:@types/body-parser",
-            "npm:@types/cors",
-            "npm:@types/express",
-            "npm:@types/jsonwebtoken",
-            "npm:prisma",
-            "npm:tsc-watch",
-            "npm:typescript"
-          ]
-        },
-        {
-          "file": "apps/api/prisma/migrations/20240511125448_/migration.sql",
-          "hash": "2969482022588892738"
-        },
-        {
-          "file": "apps/api/prisma/migrations/migration_lock.toml",
-          "hash": "11493296588214560035"
-        },
-        {
-          "file": "apps/api/prisma/schema.prisma",
-          "hash": "14162470540319591963"
-        },
-        {
-          "file": "apps/api/src/app/clients/db/index.ts",
-          "hash": "9222501366684876445"
-        },
-        {
-          "file": "apps/api/src/app/index.ts",
-          "hash": "4046584622441676679"
-        },
-        {
-          "file": "apps/api/src/app/service/jwt.ts",
-          "hash": "6602871044604724079"
-        },
-        {
-          "file": "apps/api/src/app/service/user.ts",
-          "hash": "10702599908566673209"
-        },
-        {
-          "file": "apps/api/src/app/user/index.ts",
-          "hash": "1940811257471299335"
-        },
-        {
-          "file": "apps/api/src/app/user/mutations.ts",
-          "hash": "4274489864531017769"
-        },
-        {
-          "file": "apps/api/src/app/user/queries.ts",
-          "hash": "10176956359130932746"
-        },
-        {
-          "file": "apps/api/src/app/user/resolvers.ts",
-          "hash": "827908610703176298"
-        },
-        {
-          "file": "apps/api/src/app/user/types.ts",
-          "hash": "5726942551744462247"
-        },
-        {
-          "file": "apps/api/src/index.ts",
-          "hash": "18202761302939250095"
-        },
-        {
-          "file": "apps/api/src/interface.ts",
-          "hash": "5124726343336635550"
-        },
-        {
-          "file": "apps/api/tsconfig.json",
-          "hash": "3325854518017868970"
-        }
-      ],
       "web": [
         {
           "file": "apps/web/.env.example",
@@ -223,23 +132,23 @@
         },
         {
           "file": "apps/web/gql/fragment-masking.ts",
-          "hash": "7764723068926733477"
+          "hash": "17945849651638669270"
         },
         {
           "file": "apps/web/gql/gql.ts",
-          "hash": "980856681986473977"
+          "hash": "9197013220182861659"
         },
         {
           "file": "apps/web/gql/graphql.ts",
-          "hash": "8190599093731556264"
+          "hash": "6061952621274896015"
         },
         {
           "file": "apps/web/gql/index.ts",
-          "hash": "17120647314281319039"
+          "hash": "15145554174544902988"
         },
         {
           "file": "apps/web/graphql.schema.json",
-          "hash": "3193884896490902960"
+          "hash": "5975479409052592060"
         },
         {
           "file": "apps/web/graphql/query/user.ts",
@@ -403,11 +312,23 @@
         },
         {
           "file": "apps/web/src/app/page.tsx",
-          "hash": "5335123107210172224"
+          "hash": "15768331290599782762"
         },
         {
           "file": "apps/web/src/components/LoginButton.tsx",
           "hash": "16622857781708965969"
+        },
+        {
+          "file": "apps/web/src/components/ProfileButton.tsx",
+          "hash": "10008748827764252758"
+        },
+        {
+          "file": "apps/web/src/components/Sidebar.tsx",
+          "hash": "18446260490921089899"
+        },
+        {
+          "file": "apps/web/src/components/TweetModal.tsx",
+          "hash": "16064916454251929075"
         },
         {
           "file": "apps/web/src/components/button.tsx",
@@ -468,18 +389,125 @@
         {
           "file": "apps/web/vercel.json",
           "hash": "11963294713451375693"
+        }
+      ],
+      "api": [
+        {
+          "file": "apps/api/.gitignore",
+          "hash": "3268938738577749595"
         },
         {
-          "file": "apps/web/src/components/Sidebar.tsx",
-          "hash": "18446260490921089899"
+          "file": "apps/api/package.json",
+          "hash": "2191001322927038005",
+          "deps": [
+            "npm:@apollo/server",
+            "npm:@aws-sdk/client-s3",
+            "npm:@aws-sdk/s3-request-presigner",
+            "npm:@prisma/client",
+            "npm:axios",
+            "npm:body-parser",
+            "npm:cors",
+            "npm:dotenv",
+            "npm:express",
+            "npm:graphql",
+            "npm:ioredis",
+            "npm:jsonwebtoken",
+            "npm:@types/body-parser",
+            "npm:@types/cors",
+            "npm:@types/express",
+            "npm:@types/jsonwebtoken",
+            "npm:prisma",
+            "npm:tsc-watch",
+            "npm:typescript"
+          ]
         },
         {
-          "file": "apps/web/src/components/ProfileButton.tsx",
-          "hash": "10008748827764252758"
+          "file": "apps/api/prisma/migrations/20240511125448_/migration.sql",
+          "hash": "2969482022588892738"
         },
         {
-          "file": "apps/web/src/components/TweetModal.tsx",
-          "hash": "16064916454251929075"
+          "file": "apps/api/prisma/migrations/20240511233202_/migration.sql",
+          "hash": "12724521993954965434"
+        },
+        {
+          "file": "apps/api/prisma/migrations/migration_lock.toml",
+          "hash": "11493296588214560035"
+        },
+        {
+          "file": "apps/api/prisma/schema.prisma",
+          "hash": "9705113050331246795"
+        },
+        {
+          "file": "apps/api/src/app/clients/db/index.ts",
+          "hash": "9222501366684876445"
+        },
+        {
+          "file": "apps/api/src/app/index.ts",
+          "hash": "11068101989810264736"
+        },
+        {
+          "file": "apps/api/src/app/service/jwt.ts",
+          "hash": "6602871044604724079"
+        },
+        {
+          "file": "apps/api/src/app/service/tweet.ts",
+          "hash": "16414754852344645275"
+        },
+        {
+          "file": "apps/api/src/app/service/user.ts",
+          "hash": "10702599908566673209"
+        },
+        {
+          "file": "apps/api/src/app/tweets/index.ts",
+          "hash": "8929043990044906672"
+        },
+        {
+          "file": "apps/api/src/app/tweets/mutations.ts",
+          "hash": "3846447217643249745"
+        },
+        {
+          "file": "apps/api/src/app/tweets/queries.ts",
+          "hash": "6125961989412855089"
+        },
+        {
+          "file": "apps/api/src/app/tweets/resolvers.ts",
+          "hash": "2282077745564470278"
+        },
+        {
+          "file": "apps/api/src/app/tweets/types.ts",
+          "hash": "18049066011438012432"
+        },
+        {
+          "file": "apps/api/src/app/user/index.ts",
+          "hash": "1940811257471299335"
+        },
+        {
+          "file": "apps/api/src/app/user/mutations.ts",
+          "hash": "4274489864531017769"
+        },
+        {
+          "file": "apps/api/src/app/user/queries.ts",
+          "hash": "10176956359130932746"
+        },
+        {
+          "file": "apps/api/src/app/user/resolvers.ts",
+          "hash": "409437742003865142"
+        },
+        {
+          "file": "apps/api/src/app/user/types.ts",
+          "hash": "3582769149767815182"
+        },
+        {
+          "file": "apps/api/src/index.ts",
+          "hash": "18202761302939250095"
+        },
+        {
+          "file": "apps/api/src/interface.ts",
+          "hash": "5124726343336635550"
+        },
+        {
+          "file": "apps/api/tsconfig.json",
+          "hash": "3325854518017868970"
         }
       ]
     }

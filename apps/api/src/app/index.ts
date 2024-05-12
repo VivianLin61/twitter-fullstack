@@ -5,6 +5,7 @@ import bodyParser from "body-parser";
 import cors from "cors";
 import { User } from "./user";
 import { JWTService } from "./service/jwt";
+import { Tweet } from "./tweets";
 
 export const initServer = async () => {
   const app = express();
@@ -13,14 +14,25 @@ export const initServer = async () => {
   const graphqlServer = new ApolloServer({
     typeDefs: `
         ${User.types}
-            type Query {
-                ${User.queries}
-            }
+        ${Tweet.types}
+        type Query {
+            ${User.queries}
+            ${Tweet.queries}
+        }
+        type Mutation {
+            ${Tweet.mutations}
+        }
     `,
     resolvers: {
       Query: {
         ...User.resolvers.queries,
+        ...Tweet.resolvers.queries,
       },
+      Mutation: {
+        ...Tweet.resolvers.mutations,
+      },
+      ...Tweet.resolvers.extraResolvers,
+      ...User.resolvers.extraResolvers,
     },
   });
   await graphqlServer.start();
@@ -40,5 +52,4 @@ export const initServer = async () => {
   );
 
   return app;
-  //highlight-end
 };

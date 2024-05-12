@@ -1,0 +1,45 @@
+
+> api@1.0.0 dev /Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/api
+> tsc-watch --onSuccess "npm start"
+
+c9:15:58 AM - Starting compilation in watch mode...
+
+
+9:15:59 AM -[32m Found 0 errors. Watching for file changes.[39m
+
+> api@1.0.0 start
+> node build/index
+
+server started on port 8000
+c9:16:17 AM - File change detected. Starting incremental compilation...
+
+
+9:16:17 AM -[32m Found 0 errors. Watching for file changes.[39m
+
+> api@1.0.0 start
+> node build/index
+
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8000
+[90m    at Server.setupListenHandle [as _listen2] (node:net:1817:16)[39m
+[90m    at listenInCluster (node:net:1865:12)[39m
+[90m    at Server.listen (node:net:1953:7)[39m
+    at Function.listen (/Users/vivianlin/Projects/02 Learning/twitter-fullstack/node_modules/[4m.pnpm[24m/express@4.19.2/node_modules/[4mexpress[24m/lib/application.js:635:24)
+    at [90m/Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/api/[39mbuild/index.js:40:9
+    at Generator.next (<anonymous>)
+    at fulfilled [90m(/Users/vivianlin/Projects/02 Learning/twitter-fullstack/apps/api/[39mbuild/index.js:28:58[90m)[39m
+Emitted 'error' event on Server instance at:
+[90m    at emitErrorNT (node:net:1844:8)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m {
+  code: [32m'EADDRINUSE'[39m,
+  errno: [33m-48[39m,
+  syscall: [32m'listen'[39m,
+  address: [32m'::'[39m,
+  port: [33m8000[39m
+}
+
+Node.js v18.19.0
+^C
