@@ -30,8 +30,15 @@ const FeedCard: React.FC<feedCardProps> = ({ tweet }) => {
         <span className='font-semibold'>
           {tweet.author?.firstName} {tweet.author?.lastName}
         </span>
-        <span className='text-gray-600 mx-3'>@debarkamondal</span>
         <div className='my-1'>{tweet.content}</div>
+        {tweet.imgUrl && (
+          <Image
+            src={tweet.imgUrl}
+            alt='tweet image'
+            height={200}
+            width={300}
+          />
+        )}
       </div>
       <div className='col-span-11 col-start-2 flex justify-between items-center text-gray-600 text-xl'>
         <span className='flex items-center gap-2'>

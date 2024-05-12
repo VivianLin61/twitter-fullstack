@@ -14223,6 +14223,11 @@
     "web": [
       {
         "source": "web",
+        "target": "npm:@aws-sdk/client-s3",
+        "type": "static"
+      },
+      {
+        "source": "web",
         "target": "npm:@graphql-codegen/typescript-graphql-request",
         "type": "static"
       },

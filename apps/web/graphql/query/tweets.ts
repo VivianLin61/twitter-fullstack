@@ -14,3 +14,10 @@ export const getAllTweetsQuery = graphql(`
     }
   }
 `);
+
+export const getTweetImgPresignedUrlQuery = graphql(`
+  #graphql
+  query getTweetImgPresignedUrl($imgType: String!, $imgName: String!) {
+    getTweetImgPresignedUrl(ImgType: $imgType, ImgName: $imgName)
+  }
+`);

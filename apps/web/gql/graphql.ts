@@ -47,7 +47,13 @@ export type Query = {
   __typename?: 'Query';
   getAllTweets?: Maybe<Array<Maybe<Tweet>>>;
   getCurrentUser?: Maybe<User>;
+  getTweetImgPresignedUrl?: Maybe<Scalars['String']['output']>;
   verifyGoogleToken?: Maybe<Scalars['String']['output']>;
+};
+
+export type QueryGetTweetImgPresignedUrlArgs = {
+  ImgName: Scalars['String']['input'];
+  ImgType: Scalars['String']['input'];
 };
 
 export type QueryVerifyGoogleTokenArgs = {
@@ -97,6 +103,16 @@ export type GetAllTweetsQuery = {
       profileImgUrl?: string | null;
     } | null;
   } | null> | null;
+};
+
+export type GetTweetImgPresignedUrlQueryVariables = Exact<{
+  imgType: Scalars['String']['input'];
+  imgName: Scalars['String']['input'];
+}>;
+
+export type GetTweetImgPresignedUrlQuery = {
+  __typename?: 'Query';
+  getTweetImgPresignedUrl?: string | null;
 };
 
 export type VerifyUserGoogleTokenQueryQueryVariables = Exact<{
@@ -221,6 +237,76 @@ export const GetAllTweetsDocument = {
     },
   ],
 } as unknown as DocumentNode<GetAllTweetsQuery, GetAllTweetsQueryVariables>;
+export const GetTweetImgPresignedUrlDocument = {
+  kind: 'Document',
+  definitions: [
+    {
+      kind: 'OperationDefinition',
+      operation: 'query',
+      name: { kind: 'Name', value: 'getTweetImgPresignedUrl' },
+      variableDefinitions: [
+        {
+          kind: 'VariableDefinition',
+          variable: {
+            kind: 'Variable',
+            name: { kind: 'Name', value: 'imgType' },
+          },
+          type: {
+            kind: 'NonNullType',
+            type: {
+              kind: 'NamedType',
+              name: { kind: 'Name', value: 'String' },
+            },
+          },
+        },
+        {
+          kind: 'VariableDefinition',
+          variable: {
+            kind: 'Variable',
+            name: { kind: 'Name', value: 'imgName' },
+          },
+          type: {
+            kind: 'NonNullType',
+            type: {
+              kind: 'NamedType',
+              name: { kind: 'Name', value: 'String' },
+            },
+          },
+        },
+      ],
+      selectionSet: {
+        kind: 'SelectionSet',
+        selections: [
+          {
+            kind: 'Field',
+            name: { kind: 'Name', value: 'getTweetImgPresignedUrl' },
+            arguments: [
+              {
+                kind: 'Argument',
+                name: { kind: 'Name', value: 'ImgType' },
+                value: {
+                  kind: 'Variable',
+                  name: { kind: 'Name', value: 'imgType' },
+                },
+              },
+              {
+                kind: 'Argument',
+                name: { kind: 'Name', value: 'ImgName' },
+                value: {
+                  kind: 'Variable',
+                  name: { kind: 'Name', value: 'imgName' },
+                },
+              },
+            ],
+          },
+        ],
+      },
+    },
+  ],
+} as unknown as DocumentNode<
+  GetTweetImgPresignedUrlQuery,
+  GetTweetImgPresignedUrlQueryVariables
+>;
 export const VerifyUserGoogleTokenQueryDocument = {
   kind: 'Document',
   definitions: [

@@ -9,7 +9,7 @@ const nextConfig = {
       'avatars.githubusercontent.com',
       'lh3.googleusercontent.com',
       'images.unsplash.com',
-      'dezire-twitter-clone-dev.s3.ap-south-1.amazonaws.com',
+      'twitter-fullstack.s3.us-east-1.amazonaws.com',
     ],
   },
   reactStrictMode: true,
