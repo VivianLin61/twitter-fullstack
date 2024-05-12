@@ -4,7 +4,7 @@ import { useGetCurrentUser } from 'hooks/user';
 import Image from 'next/image';
 import React, { useCallback, useState } from 'react';
 import { AiOutlineFileGif, AiOutlineUnorderedList } from 'react-icons/ai';
-import { BsEmojiSmile } from 'react-icons/bs';
+import { BsEmojiSmile, BsImage } from 'react-icons/bs';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { IoIosArrowDown } from 'react-icons/io';
 import { MdEventRepeat } from 'react-icons/md';
@@ -16,6 +16,13 @@ export const TweetModal = () => {
   const handleCreateTweet = useCallback(() => {
     mutate({ content });
   }, [mutate, content]);
+
+  const handleImageUpload = useCallback(() => {
+    const input = document.createElement('input');
+    input.setAttribute('type', 'file');
+    input.setAttribute('accept', 'images/*');
+    input.click();
+  }, []);
 
   return (
     <section className='h-min-48 grid grid-cols-12  gap-2 border-b-[0.5px] border-b-gray-800 p-4'>
@@ -43,6 +50,7 @@ export const TweetModal = () => {
       </div>
       <div className='col-span-11 flex justify-between'>
         <div className='flex cursor-pointer gap-4 p-2 text-xl font-bold text-blue-400'>
+          <BsImage onClick={handleImageUpload} />
           <AiOutlineFileGif />
           <AiOutlineUnorderedList />
           <BsEmojiSmile />
