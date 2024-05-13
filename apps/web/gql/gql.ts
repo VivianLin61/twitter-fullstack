@@ -21,7 +21,7 @@ const documents = {
     types.GetTweetImgPresignedUrlDocument,
   '\n  #graphql\n  query VerifyUserGoogleTokenQuery($token: String!) {\n    verifyGoogleToken(token: $token)\n  }\n':
     types.VerifyUserGoogleTokenQueryDocument,
-  '\n  #graphql\n  query getCurrentUser {\n    getCurrentUser {\n      id\n      firstName\n      lastName\n      email\n      profileImgUrl\n    }\n  }\n':
+  '\n  #graphql\n  query getCurrentUser {\n    getCurrentUser {\n      id\n      firstName\n      lastName\n      email\n      profileImgUrl\n      tweets {\n        id\n        content\n        imgUrl\n        author {\n          firstName\n          lastName\n          profileImgUrl\n        }\n      }\n    }\n  }\n':
     types.GetCurrentUserDocument,
 };
 
@@ -67,8 +67,8 @@ export function graphql(
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
 export function graphql(
-  source: '\n  #graphql\n  query getCurrentUser {\n    getCurrentUser {\n      id\n      firstName\n      lastName\n      email\n      profileImgUrl\n    }\n  }\n'
-): (typeof documents)['\n  #graphql\n  query getCurrentUser {\n    getCurrentUser {\n      id\n      firstName\n      lastName\n      email\n      profileImgUrl\n    }\n  }\n'];
+  source: '\n  #graphql\n  query getCurrentUser {\n    getCurrentUser {\n      id\n      firstName\n      lastName\n      email\n      profileImgUrl\n      tweets {\n        id\n        content\n        imgUrl\n        author {\n          firstName\n          lastName\n          profileImgUrl\n        }\n      }\n    }\n  }\n'
+): (typeof documents)['\n  #graphql\n  query getCurrentUser {\n    getCurrentUser {\n      id\n      firstName\n      lastName\n      email\n      profileImgUrl\n      tweets {\n        id\n        content\n        imgUrl\n        author {\n          firstName\n          lastName\n          profileImgUrl\n        }\n      }\n    }\n  }\n'];
 
 export function graphql(source: string) {
   return (documents as any)[source] ?? {};

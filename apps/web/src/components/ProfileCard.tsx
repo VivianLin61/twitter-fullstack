@@ -4,7 +4,7 @@ import Image from 'next/image';
 import React from 'react';
 import { FiMoreHorizontal } from 'react-icons/fi';
 
-export const ProfileButton: React.FC<React.HTMLAttributes<HTMLDivElement>> = (
+export const ProfileCard: React.FC<React.HTMLAttributes<HTMLDivElement>> = (
   props
 ) => {
   const { user } = useGetCurrentUser();

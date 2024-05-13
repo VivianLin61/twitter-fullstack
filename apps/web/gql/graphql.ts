@@ -135,6 +135,18 @@ export type GetCurrentUserQuery = {
     lastName?: string | null;
     email: string;
     profileImgUrl?: string | null;
+    tweets?: Array<{
+      __typename?: 'Tweet';
+      id: string;
+      content: string;
+      imgUrl?: string | null;
+      author?: {
+        __typename?: 'User';
+        firstName: string;
+        lastName?: string | null;
+        profileImgUrl?: string | null;
+      } | null;
+    } | null> | null;
   } | null;
 };
 
@@ -378,6 +390,45 @@ export const GetCurrentUserDocument = {
                 {
                   kind: 'Field',
                   name: { kind: 'Name', value: 'profileImgUrl' },
+                },
+                {
+                  kind: 'Field',
+                  name: { kind: 'Name', value: 'tweets' },
+                  selectionSet: {
+                    kind: 'SelectionSet',
+                    selections: [
+                      { kind: 'Field', name: { kind: 'Name', value: 'id' } },
+                      {
+                        kind: 'Field',
+                        name: { kind: 'Name', value: 'content' },
+                      },
+                      {
+                        kind: 'Field',
+                        name: { kind: 'Name', value: 'imgUrl' },
+                      },
+                      {
+                        kind: 'Field',
+                        name: { kind: 'Name', value: 'author' },
+                        selectionSet: {
+                          kind: 'SelectionSet',
+                          selections: [
+                            {
+                              kind: 'Field',
+                              name: { kind: 'Name', value: 'firstName' },
+                            },
+                            {
+                              kind: 'Field',
+                              name: { kind: 'Name', value: 'lastName' },
+                            },
+                            {
+                              kind: 'Field',
+                              name: { kind: 'Name', value: 'profileImgUrl' },
+                            },
+                          ],
+                        },
+                      },
+                    ],
+                  },
                 },
               ],
             },
