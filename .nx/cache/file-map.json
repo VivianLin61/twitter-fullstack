@@ -12,24 +12,20 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".husky/pre-commit",
-        "hash": "8469265186761294654"
-      },
-      {
         "file": "package.json",
         "hash": "6463340096807443761"
       },
       {
-        "file": "nx.json",
-        "hash": "7905224585918534913"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "26814839842386940"
-      },
-      {
         "file": "pnpm-lock.yaml",
         "hash": "6197615853678078610"
+      },
+      {
+        "file": ".husky/pre-commit",
+        "hash": "8469265186761294654"
+      },
+      {
+        "file": ".husky/post-merge",
+        "hash": "16146438816338692493"
       },
       {
         "file": "pnpm-workspace.yaml",
@@ -40,12 +36,16 @@
         "hash": "8477230314128361436"
       },
       {
+        "file": "nx.json",
+        "hash": "7905224585918534913"
+      },
+      {
         "file": "commitlint.config.js",
         "hash": "1085937044812020921"
       },
       {
-        "file": ".husky/post-merge",
-        "hash": "16146438816338692493"
+        "file": ".gitignore",
+        "hash": "26814839842386940"
       }
     ],
     "projectFileMap": {
@@ -136,11 +136,11 @@
         },
         {
           "file": "apps/web/gql/gql.ts",
-          "hash": "8807021808441055213"
+          "hash": "4137972727492590294"
         },
         {
           "file": "apps/web/gql/graphql.ts",
-          "hash": "8444146745173847115"
+          "hash": "16460816375162892181"
         },
         {
           "file": "apps/web/gql/index.ts",
@@ -472,7 +472,7 @@
         },
         {
           "file": "apps/api/prisma/schema.prisma",
-          "hash": "9705113050331246795"
+          "hash": "177569444029097358"
         },
         {
           "file": "apps/api/src/app/clients/db/index.ts",
@@ -480,7 +480,7 @@
         },
         {
           "file": "apps/api/src/app/index.ts",
-          "hash": "11068101989810264736"
+          "hash": "10626545672804834807"
         },
         {
           "file": "apps/api/src/app/service/jwt.ts",
@@ -492,7 +492,7 @@
         },
         {
           "file": "apps/api/src/app/service/user.ts",
-          "hash": "10702599908566673209"
+          "hash": "15308680494690219848"
         },
         {
           "file": "apps/api/src/app/tweets/index.ts",
@@ -520,7 +520,7 @@
         },
         {
           "file": "apps/api/src/app/user/mutations.ts",
-          "hash": "4274489864531017769"
+          "hash": "6220364766380718590"
         },
         {
           "file": "apps/api/src/app/user/queries.ts",
@@ -528,11 +528,11 @@
         },
         {
           "file": "apps/api/src/app/user/resolvers.ts",
-          "hash": "15183616874994511347"
+          "hash": "1144801446677742651"
         },
         {
           "file": "apps/api/src/app/user/types.ts",
-          "hash": "17354722719120103721"
+          "hash": "10869633948700739577"
         },
         {
           "file": "apps/api/src/index.ts",
@@ -545,6 +545,10 @@
         {
           "file": "apps/api/tsconfig.json",
           "hash": "3325854518017868970"
+        },
+        {
+          "file": "apps/api/prisma/migrations/20240513185111_/migration.sql",
+          "hash": "17185202539650109566"
         }
       ]
     }
