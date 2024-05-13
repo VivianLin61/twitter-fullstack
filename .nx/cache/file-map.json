@@ -12,28 +12,16 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "package.json",
-        "hash": "6463340096807443761"
-      },
-      {
-        "file": "pnpm-lock.yaml",
-        "hash": "6197615853678078610"
+        "file": ".gitignore",
+        "hash": "26814839842386940"
       },
       {
         "file": ".husky/pre-commit",
         "hash": "8469265186761294654"
       },
       {
-        "file": ".husky/post-merge",
-        "hash": "16146438816338692493"
-      },
-      {
-        "file": "pnpm-workspace.yaml",
-        "hash": "13108396804214547201"
-      },
-      {
-        "file": ".husky/commit-msg",
-        "hash": "8477230314128361436"
+        "file": "package.json",
+        "hash": "6463340096807443761"
       },
       {
         "file": "nx.json",
@@ -44,8 +32,20 @@
         "hash": "1085937044812020921"
       },
       {
-        "file": ".gitignore",
-        "hash": "26814839842386940"
+        "file": ".husky/commit-msg",
+        "hash": "8477230314128361436"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "6197615853678078610"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "13108396804214547201"
+      },
+      {
+        "file": ".husky/post-merge",
+        "hash": "16146438816338692493"
       }
     ],
     "projectFileMap": {
@@ -136,11 +136,11 @@
         },
         {
           "file": "apps/web/gql/gql.ts",
-          "hash": "4137972727492590294"
+          "hash": "16366835982537825939"
         },
         {
           "file": "apps/web/gql/graphql.ts",
-          "hash": "16460816375162892181"
+          "hash": "10208305387354536247"
         },
         {
           "file": "apps/web/gql/index.ts",
@@ -148,7 +148,7 @@
         },
         {
           "file": "apps/web/graphql.schema.json",
-          "hash": "9391566420995247640"
+          "hash": "11037894911391836152"
         },
         {
           "file": "apps/web/graphql/mutation/tweet.ts",
@@ -160,7 +160,7 @@
         },
         {
           "file": "apps/web/graphql/query/user.ts",
-          "hash": "12474001637099200250"
+          "hash": "17054366158318755577"
         },
         {
           "file": "apps/web/hooks/tweets.ts",
@@ -168,7 +168,7 @@
         },
         {
           "file": "apps/web/hooks/user.ts",
-          "hash": "7128579225541123401"
+          "hash": "7708356697097819126"
         },
         {
           "file": "apps/web/jest.config.js",
@@ -361,7 +361,7 @@
         },
         {
           "file": "apps/web/src/components/UserProfile.tsx",
-          "hash": "4051952601148029347"
+          "hash": "727831696812836659"
         },
         {
           "file": "apps/web/src/components/UserTweets.tsx",
@@ -426,6 +426,14 @@
         {
           "file": "apps/web/vercel.json",
           "hash": "11963294713451375693"
+        },
+        {
+          "file": "apps/web/src/components/FollowButton.tsx",
+          "hash": "12053935450676851613"
+        },
+        {
+          "file": "apps/web/graphql/mutation/user.ts",
+          "hash": "2928494442991393483"
         }
       ],
       "api": [
@@ -492,7 +500,7 @@
         },
         {
           "file": "apps/api/src/app/service/user.ts",
-          "hash": "15308680494690219848"
+          "hash": "1256353205315840954"
         },
         {
           "file": "apps/api/src/app/tweets/index.ts",
@@ -528,7 +536,7 @@
         },
         {
           "file": "apps/api/src/app/user/resolvers.ts",
-          "hash": "1144801446677742651"
+          "hash": "17257823810972500846"
         },
         {
           "file": "apps/api/src/app/user/types.ts",

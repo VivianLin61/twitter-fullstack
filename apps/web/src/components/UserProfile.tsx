@@ -1,7 +1,10 @@
 'use client';
+import { User } from 'gql/graphql';
 import { useGetUserById } from 'hooks/user';
 import Image from 'next/image';
 import React from 'react';
+
+import FollowButton from './FollowButton';
 
 const UserProfile = ({ id }: { id: string }) => {
   const { user } = useGetUserById(id);
@@ -15,6 +18,7 @@ const UserProfile = ({ id }: { id: string }) => {
         alt='cover'
         className='h-56 w-full object-cover'
       />
+      <FollowButton className='float-right m-4' user={user as User} />
       <div className='-mt-24 px-4'>
         {user?.profileImgUrl && (
           <Image
@@ -34,6 +38,16 @@ const UserProfile = ({ id }: { id: string }) => {
             {user?.lastName}
           </p>
         )}
+      </div>
+      <div className=' flex items-center gap-2 text-center'>
+        <button>
+          <span>{user?.following?.length} </span>
+          <span className='text-gray-600'>Following</span>
+        </button>
+        <button>
+          <span>{user?.followers?.length} </span>
+          <span className='text-gray-600'>Followers</span>
+        </button>
       </div>
     </section>
   );
