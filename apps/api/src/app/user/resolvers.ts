@@ -16,6 +16,12 @@ const queries = {
     return user;
     // return await UserService.getUserById(context.user.id);
   },
+
+  getUserById: async (
+    parent: any,
+    { id }: { id: string },
+    context: GraphQLContext
+  ) => await UserService.getUserById(id),
 };
 
 const extraResolvers = {

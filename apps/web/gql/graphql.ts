@@ -48,12 +48,17 @@ export type Query = {
   getAllTweets?: Maybe<Array<Maybe<Tweet>>>;
   getCurrentUser?: Maybe<User>;
   getTweetImgPresignedUrl?: Maybe<Scalars['String']['output']>;
+  getUserById: User;
   verifyGoogleToken?: Maybe<Scalars['String']['output']>;
 };
 
 export type QueryGetTweetImgPresignedUrlArgs = {
   ImgName: Scalars['String']['input'];
   ImgType: Scalars['String']['input'];
+};
+
+export type QueryGetUserByIdArgs = {
+  id: Scalars['ID']['input'];
 };
 
 export type QueryVerifyGoogleTokenArgs = {
@@ -98,6 +103,7 @@ export type GetAllTweetsQuery = {
     imgUrl?: string | null;
     author?: {
       __typename?: 'User';
+      id: string;
       firstName: string;
       lastName?: string | null;
       profileImgUrl?: string | null;
@@ -148,6 +154,35 @@ export type GetCurrentUserQuery = {
       } | null;
     } | null> | null;
   } | null;
+};
+
+export type GetUserByIdQueryVariables = Exact<{
+  id: Scalars['ID']['input'];
+}>;
+
+export type GetUserByIdQuery = {
+  __typename?: 'Query';
+  getUserById: {
+    __typename?: 'User';
+    id: string;
+    email: string;
+    firstName: string;
+    lastName?: string | null;
+    profileImgUrl?: string | null;
+    tweets?: Array<{
+      __typename?: 'Tweet';
+      id: string;
+      content: string;
+      imgUrl?: string | null;
+      author?: {
+        __typename?: 'User';
+        id: string;
+        firstName: string;
+        lastName?: string | null;
+        profileImgUrl?: string | null;
+      } | null;
+    } | null> | null;
+  };
 };
 
 export const CreateTweetDocument = {
@@ -226,6 +261,7 @@ export const GetAllTweetsDocument = {
                   selectionSet: {
                     kind: 'SelectionSet',
                     selections: [
+                      { kind: 'Field', name: { kind: 'Name', value: 'id' } },
                       {
                         kind: 'Field',
                         name: { kind: 'Name', value: 'firstName' },
@@ -438,3 +474,98 @@ export const GetCurrentUserDocument = {
     },
   ],
 } as unknown as DocumentNode<GetCurrentUserQuery, GetCurrentUserQueryVariables>;
+export const GetUserByIdDocument = {
+  kind: 'Document',
+  definitions: [
+    {
+      kind: 'OperationDefinition',
+      operation: 'query',
+      name: { kind: 'Name', value: 'getUserByID' },
+      variableDefinitions: [
+        {
+          kind: 'VariableDefinition',
+          variable: { kind: 'Variable', name: { kind: 'Name', value: 'id' } },
+          type: {
+            kind: 'NonNullType',
+            type: { kind: 'NamedType', name: { kind: 'Name', value: 'ID' } },
+          },
+        },
+      ],
+      selectionSet: {
+        kind: 'SelectionSet',
+        selections: [
+          {
+            kind: 'Field',
+            name: { kind: 'Name', value: 'getUserById' },
+            arguments: [
+              {
+                kind: 'Argument',
+                name: { kind: 'Name', value: 'id' },
+                value: {
+                  kind: 'Variable',
+                  name: { kind: 'Name', value: 'id' },
+                },
+              },
+            ],
+            selectionSet: {
+              kind: 'SelectionSet',
+              selections: [
+                { kind: 'Field', name: { kind: 'Name', value: 'id' } },
+                { kind: 'Field', name: { kind: 'Name', value: 'email' } },
+                { kind: 'Field', name: { kind: 'Name', value: 'firstName' } },
+                { kind: 'Field', name: { kind: 'Name', value: 'lastName' } },
+                {
+                  kind: 'Field',
+                  name: { kind: 'Name', value: 'profileImgUrl' },
+                },
+                {
+                  kind: 'Field',
+                  name: { kind: 'Name', value: 'tweets' },
+                  selectionSet: {
+                    kind: 'SelectionSet',
+                    selections: [
+                      { kind: 'Field', name: { kind: 'Name', value: 'id' } },
+                      {
+                        kind: 'Field',
+                        name: { kind: 'Name', value: 'content' },
+                      },
+                      {
+                        kind: 'Field',
+                        name: { kind: 'Name', value: 'imgUrl' },
+                      },
+                      {
+                        kind: 'Field',
+                        name: { kind: 'Name', value: 'author' },
+                        selectionSet: {
+                          kind: 'SelectionSet',
+                          selections: [
+                            {
+                              kind: 'Field',
+                              name: { kind: 'Name', value: 'id' },
+                            },
+                            {
+                              kind: 'Field',
+                              name: { kind: 'Name', value: 'firstName' },
+                            },
+                            {
+                              kind: 'Field',
+                              name: { kind: 'Name', value: 'lastName' },
+                            },
+                            {
+                              kind: 'Field',
+                              name: { kind: 'Name', value: 'profileImgUrl' },
+                            },
+                          ],
+                        },
+                      },
+                    ],
+                  },
+                },
+              ],
+            },
+          },
+        ],
+      },
+    },
+  ],
+} as unknown as DocumentNode<GetUserByIdQuery, GetUserByIdQueryVariables>;

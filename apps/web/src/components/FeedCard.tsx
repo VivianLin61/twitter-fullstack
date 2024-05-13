@@ -1,5 +1,6 @@
 import { Tweet } from 'gql/graphql';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import { AiOutlineHeart } from 'react-icons/ai';
 import { BiMessageRounded } from 'react-icons/bi';
@@ -27,9 +28,11 @@ const FeedCard: React.FC<feedCardProps> = ({ tweet }) => {
         <span className='float-right text-gray-600 py-1'>
           <FiMoreHorizontal />
         </span>
-        <span className='font-semibold'>
-          {tweet.author?.firstName} {tweet.author?.lastName}
-        </span>
+        <Link href={`/${tweet.author?.id}`}>
+          <span className='font-semibold'>
+            {tweet.author?.firstName} {tweet.author?.lastName}
+          </span>
+        </Link>
         <div className='my-1'>{tweet.content}</div>
         {tweet.imgUrl && (
           <Image
