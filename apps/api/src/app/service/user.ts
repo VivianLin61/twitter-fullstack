@@ -57,6 +57,7 @@ export class UserService {
     return userToken;
   }
   public static getUserById(id: string) {
+
     return prismaClient.user.findUnique({
       where: { id },
     });

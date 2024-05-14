@@ -3,6 +3,8 @@ import { GraphQLContext } from "../../interface";
 import { prismaClient } from "../clients/db";
 import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
 import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
+import { redisClient } from "../clients/redis";
+import { TweetService } from "../service/tweet";
 interface CreateTweetData {
   content: string;
   imgUrl?: string;
@@ -13,8 +15,13 @@ const s3Client = new S3Client({
 });
 
 const queries = {
-  getAllTweets: () =>
-    prismaClient.tweet.findMany({ orderBy: { createdAt: "desc" } }),
+  getAllTweets: async () => {
+    const cachetTweets = await redisClient.get("ALL_TWEETS");
+    if (cachetTweets) return JSON.parse(cachetTweets);
+    const tweets = await TweetService.getAllTweets();
+    await redisClient.set("ALL_TWEETS", JSON.stringify(tweets));
+    return tweets;
+  },
   getTweetImgPresignedUrl: async (
     parent: any,
     { ImgName, ImgType }: { ImgName: string; ImgType: string },

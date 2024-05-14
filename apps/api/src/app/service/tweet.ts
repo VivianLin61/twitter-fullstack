@@ -7,6 +7,9 @@ export interface CreateTweetData {
 }
 
 export class TweetService {
+  public static getAllTweets() {
+    return prismaClient.tweet.findMany({ orderBy: { createdAt: "desc" } });
+  }
   public static async createTweet(data: CreateTweetData) {
     const tweet = await prismaClient.tweet.create({
       data: {
