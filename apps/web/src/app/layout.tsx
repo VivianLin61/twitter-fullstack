@@ -4,7 +4,7 @@ import { Toaster } from 'react-hot-toast';
 
 import '../styles/globals.css';
 
-import { LoginButton } from '@/components/LoginButton';
+import RightSidebar from '@/components/RightSidebar';
 import Sidebar from '@/components/Sidebar';
 
 import { AuthProvider } from '@/providers/AuthProvider';
@@ -25,13 +25,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               {children}
             </div>
             <div className='hidden md:block lg:col-span-3'>
-              <div className='flex flex-col items-center gap-2 p-4 text-center '>
-                <LoginButton>
-                  <h1 className='mb-2 text-2xl font-semibold'>
-                    New to twitter?
-                  </h1>
-                </LoginButton>
-              </div>
+              <RightSidebar />
             </div>
             <ReactQueryDevtools initialIsOpen={true} />
           </AuthProvider>
