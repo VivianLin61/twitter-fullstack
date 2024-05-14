@@ -19,7 +19,6 @@ const queries = {
     const cachetTweets = await redisClient.get("ALL_TWEETS");
     if (cachetTweets) return JSON.parse(cachetTweets);
     const tweets = await TweetService.getAllTweets();
-    await redisClient.set("ALL_TWEETS", JSON.stringify(tweets));
     return tweets;
   },
   getTweetImgPresignedUrl: async (
