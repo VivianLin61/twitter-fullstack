@@ -16,7 +16,7 @@ const queries = {
     const user = await UserService.getUserById(id);
     return user;
   },
-
+  hello: () => "Hello World",
   getUserById: async (
     parent: any,
     { id }: { id: string },

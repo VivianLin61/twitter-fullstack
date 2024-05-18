@@ -39,5 +39,7 @@ lerna-debug.log*
 .build/
 .serverless/
 
+/.nx
+/.nx
 
-.nx
+apps/api/.env.production

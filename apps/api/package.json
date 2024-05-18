@@ -29,6 +29,7 @@
     },
     "scripts": {
         "start": "node build/index",
+        "start:migrate:prod": "npx prisma migrate deploy && npm run start",
         "build": "tsc -p .",
         "dev": "tsc-watch --onSuccess \"npm start\""
     }
