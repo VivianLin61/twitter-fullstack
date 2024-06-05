@@ -30,7 +30,7 @@ COPY --from=builder /app/build ./build
 COPY --from=builder /app/prisma ./prisma
 
 
-# Expose the application port
+# Expose the application port, 8080 is the default port used for many web servers 
 EXPOSE 8080
 
 # Run the application

@@ -23,6 +23,13 @@
             },
             "configurations": {}
           },
+          "start:migrate:prod": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:migrate:prod"
+            },
+            "configurations": {}
+          },
           "dev": {
             "executor": "nx:run-script",
             "options": {
